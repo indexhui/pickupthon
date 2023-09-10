@@ -1,40 +1,39 @@
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/500.css';
+import '@fontsource/montserrat/600.css';
+import '@fontsource/montserrat/700.css';
+
 import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
+import { ChakraProvider, Flex } from '@chakra-ui/react';
+import SectionPickupthon from './sectoins/Intro/SectionPickupthon';
+import SectionSeminar from 'sectoins/Seminar/SectionSeminar';
+import Header from './sectoins/Header/Header';
+import Hero from './sectoins/Hero';
+import theme from 'theme/theme';
+import { Element } from 'react-scroll';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
-      </Box>
+      <Flex
+        w="100%"
+        direction="column"
+        bgColor="bg-dark"
+        bgImage="radial-gradient(#263036 3px, #13181B 3px)"
+        bgSize="32px 32px"
+        minH="100vh"
+      >
+        <Element name="hero" id="hero">
+          <Header />
+        </Element>
+        <Hero />
+        <Element name="Intro" id="Intro">
+          <SectionPickupthon />
+        </Element>
+        <Element name="Seminar" id="Seminar">
+          <SectionSeminar />
+        </Element>
+      </Flex>
     </ChakraProvider>
   );
 }
