@@ -1,6 +1,8 @@
 import { Flex, Text } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 import Schedule from 'sectoins/Schedule/Schedule';
+import Title from 'components/Title';
+import Speaker from './Speaker';
 
 const SEMINAR_SCHEDULE = {
   day: 'DAY 1',
@@ -19,18 +21,16 @@ const SEMINAR_SCHEDULE = {
 const SectionSeminar = () => {
   const { t } = useTranslation();
   return (
-    <Flex w="100%" py="40px" border="1px solid red" justify="center">
+    <Flex w="100%" py="40px" justify="center">
       <Flex
         w="80%"
         maxW="856px"
         align="center"
         justify="center"
         direction="column"
+        border="1px solid blue"
       >
-        <Text pb="24px" textAlign="center" textStyle="h2">
-          {t('seminarTitle')}
-        </Text>
-        <Text textStyle="h5">October 27</Text>
+        <Title title={t('seminarTitle')} subTitle="October 27" />
         <Flex
           direction="column"
           w="100%"
@@ -52,6 +52,7 @@ const SectionSeminar = () => {
         >
           <Schedule content={SEMINAR_SCHEDULE} />
         </Flex>
+        <Speaker />
       </Flex>
     </Flex>
   );

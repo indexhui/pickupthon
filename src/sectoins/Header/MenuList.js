@@ -12,8 +12,8 @@ const LIST_DATA = [
     to: 'Seminar',
   },
   {
-    name: 'Hackthon',
-    to: 'Hackthon',
+    name: 'Hackathon',
+    to: 'Hackathon',
   },
   {
     name: 'FAQ',

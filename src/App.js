@@ -5,12 +5,14 @@ import '@fontsource/montserrat/700.css';
 
 import React from 'react';
 import { ChakraProvider, Flex } from '@chakra-ui/react';
-import SectionPickupthon from './sectoins/Intro/SectionPickupthon';
-import SectionSeminar from 'sectoins/Seminar/SectionSeminar';
+
 import Header from './sectoins/Header/Header';
 import Hero from './sectoins/Hero';
 import theme from 'theme/theme';
 import { Element } from 'react-scroll';
+import SectionPickupthon from './sectoins/Intro/SectionPickupthon';
+import SectionSeminar from 'sectoins/Seminar/SectionSeminar';
+import SectionHackathon from 'sectoins/Hackathon/SectionHackathon';
 
 function App() {
   return (
@@ -32,6 +34,9 @@ function App() {
         </Element>
         <Element name="Seminar" id="Seminar">
           <SectionSeminar />
+        </Element>
+        <Element name="Hackathon" id="Hackathon">
+          <SectionHackathon />
         </Element>
       </Flex>
     </ChakraProvider>
