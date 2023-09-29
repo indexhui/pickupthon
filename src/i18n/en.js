@@ -134,6 +134,22 @@ const speaker = {
   speaker07intro: `KPMG Taiwan has been committed to social innovation and sustainable development. Since the establishment of the Social Enterprise Service Team in 2014, we have been assisting businesses in engaging in social innovation and ESG strategies, accompanying mission-driven organizations in pursuing their social missions, through stakeholders engagement, identifying critical issues, and constructing operational development strategies. We explore new product and service business model innovation strategies through four major strategic approaches： Environment, Society, Locality, and Culture. These approach not only address social and environmental issues but also actively creates shared value and opens up new markets, working together to create new opportunities for sustainability.`,
 };
 
+const mentor = {
+  mentor01: 'Kirsten Chen',
+  mentor01title: 'Yoshi Design Lab, co-founder',
+  mentor01intro:
+    'Kirsten, a co-founder of Yoshi Design Lab. With over a decade of experience in advertising and startups, Kirsten has served global brands and digital products. After obtaining MA Sustainable Design and Start-Up Visa in the UK, she is back in Taiwan and trying to bring the core essence of sustainability into Taiwan. The professional field of Yoshi Design Lab is identifying the intersection of business and sustainability, transforming it into business and brand strategies, and developing products and experiences. Currently, They are dedicated to leading enterprises to become a purpose-driven culture, as well as sustainability literacy.',
+  //02
+  mentor02: 'Nita Wu',
+  mentor02title: 'Jump5, co-founder',
+  mentor02intro: `Nita is a co-founder of Jump5, a designer career health check platform. Currently, she is in charge of designing OTT streaming platforms and SaaS products for Japanese enterprise customers at a streaming company. Over the last decade, she has explored various industries, from the global laptop market to online gamification education in China and the United States and digital finance in Taiwan. Due to many role changes, she is good at trend analysis, user research, product design, and objective and diverse product strategies.`,
+  //03
+  mentor03: 'Pacha Chen',
+  mentor03title: 'UX Designer',
+  mentor03intro:
+    'Pacha is a mixed-methods, energetic, and self-motivated user experience researcher lead with over 10 years of experience in conducting B2B and international UX research, She has proven records of impactful research that could support business strategy and design.',
+};
+
 const advisor = {
   advisor01: 'Rich Huang',
   advisor01title: 'Business Manager',
@@ -227,4 +243,5 @@ export const localEn = {
   ...hackathon,
   ...advisor,
   ...register,
+  ...mentor,
 };

@@ -1,6 +1,13 @@
 import { SimpleGrid } from '@chakra-ui/react';
 
 import speaker01 from 'assets/images/speaker/speaker01.png';
+import speaker_02 from 'assets/images/speaker/speaker_02.png';
+import speaker_03 from 'assets/images/speaker/speaker_03.png';
+import speaker_04 from 'assets/images/speaker/speaker_04.png';
+import speaker_05 from 'assets/images/speaker/speaker_05.png';
+import speaker_06 from 'assets/images/speaker/speaker_06.png';
+import speaker_07 from 'assets/images/speaker/speaker_07.png';
+
 import CardModal from 'components/cardModal/CardModal';
 
 const SPEAKER_DATA = [
@@ -14,7 +21,7 @@ const SPEAKER_DATA = [
   },
   {
     name: 'speaker02',
-    image: speaker01,
+    image: speaker_02,
     title: 'speaker02title',
     topic: 'speaker02topic',
     content: 'speaker02content',
@@ -22,7 +29,7 @@ const SPEAKER_DATA = [
   },
   {
     name: 'speaker03',
-    image: speaker01,
+    image: speaker_03,
     title: 'speaker03title',
     topic: 'speaker03topic',
     content: 'speaker03content',
@@ -30,7 +37,7 @@ const SPEAKER_DATA = [
   },
   {
     name: 'speaker04',
-    image: speaker01,
+    image: speaker_04,
     title: 'speaker04title',
     topic: 'speaker04topic',
     content: 'speaker04content',
@@ -38,7 +45,7 @@ const SPEAKER_DATA = [
   },
   {
     name: 'speaker05',
-    image: speaker01,
+    image: speaker_05,
     title: 'speaker05title',
     topic: 'speaker05topic',
     content: 'speaker05content',
@@ -46,7 +53,7 @@ const SPEAKER_DATA = [
   },
   {
     name: 'speaker06',
-    image: speaker01,
+    image: speaker_06,
     title: 'speaker06title',
     topic: 'speaker06topic',
     content: 'speaker06content',
@@ -54,7 +61,7 @@ const SPEAKER_DATA = [
   },
   {
     name: 'speaker07',
-    image: speaker01,
+    image: speaker_07,
     title: 'speaker07title',
     topic: 'speaker07topic',
     content: 'speaker07content',

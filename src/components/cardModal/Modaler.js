@@ -37,7 +37,7 @@ const Modaler = props => {
           >
             <Flex
               direction="column"
-              w="60%"
+              w={{ base: '100%', lg: '60%' }}
               p="30px"
               maxH="500px"
               overflowY="scroll"
@@ -72,7 +72,12 @@ const Modaler = props => {
                 {t(content)}
               </Text>
             </Flex>
-            <Flex w="40%" bgColor="orange.400" justify="center">
+            <Flex
+              w="40%"
+              bgColor="orange.400"
+              justify="center"
+              display={{ base: 'none', lg: 'flex' }}
+            >
               <Image src={image} w="70%" objectFit="contain" />
             </Flex>
           </Flex>

@@ -7,17 +7,24 @@ import {
   ModalContent,
   useDisclosure,
   Box,
+  Link,
 } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 import { EarthIcon } from 'components/icons/EarthIcon';
 
 const SmallCard = props => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { name, title, topic, content, intro, image } = props;
+  const { name, title, link, intro, image } = props;
   const { t } = useTranslation();
   return (
     <>
-      <Flex onClick={onOpen} bgColor="aquaGreen.500" h="328px" rounded="20px">
+      <Flex
+        cursor="pointer"
+        onClick={onOpen}
+        bgColor="aquaGreen.500"
+        h="368px"
+        rounded="20px"
+      >
         <Flex
           rounded="20px"
           mx="8px"
@@ -61,7 +68,7 @@ const SmallCard = props => {
           >
             <Flex
               direction="column"
-              w="60%"
+              w={{ base: '100%', lg: '60%' }}
               p="30px"
               maxH="500px"
               overflowY="scroll"
@@ -73,8 +80,9 @@ const SmallCard = props => {
               <Text textStyle="p1" color="white">
                 {t(title)}
               </Text>
-
-              <EarthIcon />
+              <Link href={link} isExternal>
+                <EarthIcon />
+              </Link>
               <Text my="12px" color="white" textStyle="p2">
                 {t(intro)}
               </Text>
@@ -85,7 +93,12 @@ const SmallCard = props => {
                 borderColor="yellow.500"
               />
             </Flex>
-            <Flex w="40%" bgColor="orange.400" justify="center">
+            <Flex
+              w="40%"
+              bgColor="orange.400"
+              justify="center"
+              display={{ base: 'none', lg: 'flex' }}
+            >
               <Image src={image} w="70%" objectFit="contain" />
             </Flex>
           </Flex>
