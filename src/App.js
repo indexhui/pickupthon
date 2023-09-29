@@ -13,6 +13,8 @@ import { Element } from 'react-scroll';
 import SectionPickupthon from './sectoins/Intro/SectionPickupthon';
 import SectionSeminar from 'sectoins/Seminar/SectionSeminar';
 import SectionHackathon from 'sectoins/Hackathon/SectionHackathon';
+import SectionRegister from 'sectoins/SectionRegister';
+import SectionSupporter from 'sectoins/Supporters/SectionSupporter';
 
 function App() {
   return (
@@ -37,6 +39,12 @@ function App() {
         </Element>
         <Element name="Hackathon" id="Hackathon">
           <SectionHackathon />
+        </Element>
+        <Element name="Register" id="Register">
+          <SectionRegister />
+        </Element>
+        <Element name="Supporters" id="Supporters">
+          <SectionSupporter />
         </Element>
       </Flex>
     </ChakraProvider>

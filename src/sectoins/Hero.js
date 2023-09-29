@@ -8,13 +8,15 @@ import logoZH from 'assets/images/logo_zh.svg';
 import logoPickup from 'assets/images/logo_pickup.svg';
 
 const CTA = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const currentLanguage = i18n.language;
   const isZhTW = currentLanguage === 'zh-TW';
 
   return (
-    <Flex direction="column" gap="5px" pb="5%">
-      <Text color="red.500">OCT.27-29</Text>
+    <Flex direction="column" gap="5px" pb="5%" align="flex-start">
+      <Text color="black" px="10px" bgColor="yellow.500">
+        2023.10.27-29 (GMT+8)
+      </Text>
       <Flex w="400px" h="50px" position="relative">
         <Image
           opacity={isZhTW ? '0' : '1'}
@@ -33,7 +35,9 @@ const CTA = () => {
           alt="logo"
         />
       </Flex>
-      <Button w="200px">報名</Button>
+      <Button colorScheme="orange" bgColor="orange.500" color="white" w="200px">
+        {t('register')}
+      </Button>
     </Flex>
   );
 };
@@ -51,14 +55,15 @@ const Hero = () => {
       align="flex-end"
       px="10%"
     >
-      <Image
+      {/* <Image
         position="absolute"
         top="5%"
         left="10%"
         src={pickupthon2023}
         alt="pickupthon2023"
-      />
+      /> */}
       <Image
+        display={{ base: 'none', lg: 'block' }}
         position="absolute"
         bottom="10%"
         right="10%"

@@ -24,14 +24,14 @@ const LIST_DATA = [
     to: 'Register',
   },
   {
-    name: 'Supports',
-    to: 'Supports',
+    name: 'Supporters',
+    to: 'Supporters',
   },
 ];
 
 const MenuList = () => {
   return (
-    <Flex gap="1.5vw">
+    <Flex gap="1.5vw" direction={{ base: 'column', lg: 'row' }}>
       {LIST_DATA.map((item, index) => {
         return <AnchorLink key={index} name={item.name} to={item.to} />;
       })}

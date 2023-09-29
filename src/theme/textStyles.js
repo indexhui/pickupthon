@@ -16,9 +16,14 @@ const textStyles = {
     lineHeight: { base: '150%', lg: '150%' },
     fontWeight: 700,
   },
+  h4: {
+    fontSize: { base: '20px', lg: '32px' },
+    lineHeight: { base: '150%', lg: '150%' },
+    fontWeight: 700,
+  },
   h5: {
     fontSize: { base: '20px', lg: '20px' },
-    lineHeight: { base: '100%', lg: '100%' },
+    lineHeight: { base: '120%', lg: '150%' },
     fontWeight: 700,
     color: 'white',
   },

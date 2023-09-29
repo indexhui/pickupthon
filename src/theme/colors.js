@@ -12,10 +12,15 @@ const colors = {
   cloud: {
     500: '#D5DDDE',
   },
+  aquaGreen: {
+    500: '#204F55',
+    600: '#263036',
+  },
   yellow: {
     500: '#F6C76A',
   },
   orange: {
+    400: '#ED662D',
     500: '#EA593D',
     600: '#E33600',
   },

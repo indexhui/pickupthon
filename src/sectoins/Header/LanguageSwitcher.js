@@ -15,9 +15,15 @@ const LanguageSwitcher = () => {
     }
   };
   return (
-    <Flex ml="5px" border="1px solid white" p="2px 12px" rounded="full">
-      <Text color="white" onClick={() => toggleLanguageMode()}>
-        lan
+    <Flex
+      ml="10px"
+      onClick={() => toggleLanguageMode()}
+      border="1px solid white"
+      p="2px 12px"
+      rounded="full"
+    >
+      <Text cursor="pointer" color="white">
+        {isZhTW ? 'EN' : '中文'}
       </Text>
     </Flex>
   );
