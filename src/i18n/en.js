@@ -62,15 +62,16 @@ const day = {
   day1_07: 'MAD School Seminar',
   //day2
   day2_01: 'Registration and Networking',
-  day2_02: 'Introducing the Advisors',
-  day2_03: '1st Half Group Presentations',
-  day2_04: 'Lunch Break',
-  day2_05: '2nd Half Group Presentations',
-  day2_06: 'Discussion and Break',
-  day2_07: '3rd Half Group Presentations',
-  day2_08: 'Judging and Break Time',
-  day2_09: 'Award Ceremony and Winning Team Sharing',
-  day2_10: 'Event Closing',
+  day2_02: 'Event Opening and Introduction',
+  day2_03: `Chief's Speech`,
+  day2_04: 'Hackathon Topic Introduction',
+  day2_05: 'Lunch Break',
+  day2_06: 'Group Activities and Workshop 1 ',
+  day2_07: 'Discussion and Break',
+  day2_08: 'Group Activities and Workshop 2',
+  day2_09: 'Discussion and Break',
+  day2_10: 'Q&A and Wrap-Up',
+  day2_11: 'Online Assistance Hours',
   //day3
   day3_01: 'Registration and Networking',
   day3_02: 'Introducing the Advisors',
@@ -137,7 +138,7 @@ const speaker = {
 const mentor = {
   mentor01: 'Kirsten Chen',
   mentor01title: 'Yoshi Design Lab, co-founder',
-  mentor01intro:
+  mentor01inro:
     'Kirsten, a co-founder of Yoshi Design Lab. With over a decade of experience in advertising and startups, Kirsten has served global brands and digital products. After obtaining MA Sustainable Design and Start-Up Visa in the UK, she is back in Taiwan and trying to bring the core essence of sustainability into Taiwan. The professional field of Yoshi Design Lab is identifying the intersection of business and sustainability, transforming it into business and brand strategies, and developing products and experiences. Currently, They are dedicated to leading enterprises to become a purpose-driven culture, as well as sustainability literacy.',
   //02
   mentor02: 'Nita Wu',

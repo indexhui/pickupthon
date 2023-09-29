@@ -41,25 +41,207 @@ const intro = {
   introSubtitle2_9: '豐富餐點饗宴',
   introContent2_9:
     '除了豐富的活動，我們還為你精心準備了美味的午餐和精緻的飲料，為創意和設計的探索提供充沛的能量。',
+  introTitle3: '誰適合參加 Pickupthon？',
+  introSubtitle3_1: '想用設計發會社會影響力',
+  introContent3_1:
+    '如果你對設計充滿熱情，想要將創意應用於永續解決方案，那麼 Pickupthon 是一個絕佳的選擇，無論你是設計師還是產品經理，此活動將引導你運用設計思維，參與永續設計挑戰，並與來自不同國家和領域的夥伴一同實現創新設計目標。',
+  introSubtitle3_2: '環境與永續議題愛好者',
+  introContent3_2:
+    '對於環境議題和永續發展目標充滿興趣但卻不知道如何實踐嗎？ 你可以參與永續論壇講座聆聽專家見解，並參加實戰型工作坊以實際行動提出你的想法。此外，你還能在專屬線上社群中與其他夥伴建立聯繫，共同探討永續議題。',
 };
 
 const seminar = {
-  seminarTitle: 'Seminar',
-  seminarContent01:
-    'The Global Sustainable Development Goals (SDGs), established by the United Nations in 2015, aim to address 17 critical issues, including poverty, hunger, education, health, and climate change. The SDGs underscore the significance of sustainable development and encourage collaboration among countries worldwide to progress along the path of sustainability.',
-  seminarContent02:
-    'However, achieving these goals necessitates collective engagement and innovative thinking from individuals across various sectors. In recent years, with the escalation of extreme global climates, an increasing number of individuals and organizations have raised awareness about sustainable development issues. They are beginning to recognize the importance of sustainable development for our living environment. Traditional business models and design approaches have proven inadequate in confronting sustainability challenges. Thus, a more innovative approach is required to tackle these issues. In this context, the Pickupthon International Sustainable Design Hackathon was born!',
+  seminarTitle: '永續論壇',
+  seminarContent:
+    '由 7 位業界專家組成的永續論壇，透過一系列講座讓你了解永續設計的核心概念和最新業界趨勢，並藉由實際案例分享獲得將解決方案落地的知識，同時為活動拉開序幕。',
+  seminarDate: '2023.10.27',
+};
+
+const speaker = {
+  //speaker01
+  speaker01: 'Jeffrey Chou',
+  speaker01title: '91APP 資深產品設計師',
+  speaker01intro: `畢業於卡內基・梅隆大學互動設計研究所，主修變革設計 (Transition Design)，目前在 91APP 擔任資深產品設計師。工作之餘的興趣永續設計、科技哲學與未來學。我相信要解決當今人類社會面對的各種抗解問題 (Wicked Problem)，就需要從系統性的角度 (System Thinking) 來思考，這也是變革設計一直提倡的內容。歡迎所有對於 SDGs 有興趣的設計師與我聯絡，讓我們一起思考永續未來的可能性。
+  `,
+  speaker01topic: '設計與未來學',
+  speaker01content:
+    '諾貝爾獎得主司馬賀對於設計的定義是 ”Everyone designs who devises courses of action aimed at changing existing situations into preferred ones.“ 所有的設計都是針對現況提出的改善，都是設計師對於未來人類社會想像的一個碎片。設計、未來學與永續設計可以互相產生什麼樣的火花？歡迎大家來參與這個講座。',
+  //speaker02
+  speaker02: '張群儀',
+  speaker02title: '遊石設計 UXI Design 創辦人暨營運總監',
+  speaker02intro: `現職：遊石設計創辦人暨營運總監 / APSDA 亞太服務設計協會常務理事 / 國立台北科技大學互動設計系兼任助理教授。
+  於 2000 年畢業於美國卡內基美隆大學運算設計研究所。職涯擔任介面設計師、UX 設計師、易用性設計副理、產品企劃經理、UX 設計總監等...不同的角色。曾於 2012-2017 年擔任中國使用者體驗設計協會理事，並於 2020-2022 擔任 UXTW 台灣使用者經驗協會理事長。多次擔任體驗、服務設計與創新創業競賽獎項之評審工作。張群儀於 2009 年創立遊石設計，專注於從事使用者體驗設計、介面設計，以及服務設計相關領域，設計範疇涵蓋：金融、交通、工業、物流、電商、零售、旅遊、餐飲等...範疇。設計作品也多次得到國、內外設計獎項的肯定。`,
+  speaker02topic: '遊石設計一場社會服務參與的經驗分享',
+  speaker02content: `社會住宅是台灣地方政府實現社會公平正義的重要手段，也是政府組織對於資源相對弱勢的族群，提供照顧與賦能的具體作法。於 2018 年，台中市政府第一幢社會住宅正式啟動營運。各路團隊也透過市政府的組織，各司其責。除了提供良好的居住空間、環境與設施，也結合社會福利資源服務，凝聚社區感的鄰里關係，藉此實現「好好生活在一起」的共好精神。遊石設計也從台中社宅元年開始，連續五年協助市政府推動社宅服務與行銷企劃推廣，持續性地經營投入，確保社會住宅能夠提供安全、便利、暖心的人居體驗。一步一腳印。作為一個設計公司，我們樂於在社會契約下進行社會參與與實踐，這是我們的經驗分享。`,
+  //speaker03
+  speaker03: '莊紹岳',
+  speaker03title: '500 Startups 創業導師',
+  speaker03intro: `500 Startups 創業導師，曾於香港創業、台北外商銀行、北京私募基金、西雅圖區塊鏈避險基金及邁阿密諮詢顧問公司。專長領域為企業併購及新創募資。現居新加坡，同時為「敏立創投」投資決策者與線上商學院 ”The Bottom Line” 主筆。即將屆滿不惑之年，人生目標為讓台灣被世界看見，並企圖翻轉臺灣教育體系，「讓我們的下一代活在更有趣的環境」。
+  `,
+  speaker03topic: '永續金融，公司治理，及設計在其中扮演的角色',
+  speaker03content: `金融商品的設計納入 ESG 元素已是當今所有金融業的共識，而 ESG 中的 ”G” 亦旨在強調“企業治理“的重要性。然而，ESG 的精神能否真正落實？金融業的 ESG 指導原則如何不僅僅是口號？UI / UX 工作者又該如何利用自身專業順利站上永續金融的浪潮？`,
+  //speaker04
+  speaker04: '黃彥閔',
+  speaker04title: '社創行動實驗吧 +Le.Bistrot.Social 創辦人',
+  speaker04intro:
+    '社創吧是源自台灣的線上社會創新共學社群，結合虛擬雲端和實體討論的點子分享會、SlJ 跨國黑客松、社創輕鬆聊的播客頻道等，更開發校園碳盤查等永續觀念的實務工作坊，協力地方工作者進行精實創業培力。同時，走入具廢校危機之地區合作，串連公部門與新創單位協力，學以致用設計思考、公共行政與服務科學等敏捷開發專業。',
+  speaker04topic: '社會創新與永續實踐的產生',
+  speaker04content: '',
+  //speaker05
+  speaker05: '湯士賢',
+  speaker05title: 'PackagePlus 配客嘉 客戶副理 & 服務設計師',
+  speaker05intro:
+    '「走在永續與社會創新的路上，傳遞世界所需的經驗、知識與勇氣」',
+  speaker05topic: '解決真實的永續問題',
+  speaker05content: `我們的使命｜打造台灣永續循環島
+  從山、海、城市中創造地球正循環，留下更美好的未來
+  
+  配客嘉心中的「循環島」，是創造人們與環境的良性、長期的相處，透過配客嘉循環包裝與循環系統，消費者及企業得以有更環境友善的消費選擇；因為有使用 100% 再生紙漿的再生衛生紙 ReTissue，人們的便利與山林永續再也不需要二選一；擁有了在乎海洋生態的環保洗潔品 ReChoose，海洋能夠再次湛藍的綻放；有了以永續生活為號召的 ReMember 社群，我們發揚永續影響力、一起打造屬於台灣的永續循環島。`,
+  //speaker06
+  speaker06: '彭立言',
+  speaker06title: '巨獸綠色科技 MonsterBiotech 共同創辦人暨營運長',
+  speaker06intro: `巨獸綠色科技股份有限公司共同創辦人暨營運長、銳見永續顧問有限公司董事、美國國務院訪問學人，具有十年以上環境保護及永續、碳管理領域之經驗。致力推動廢棄物循環再利用、生質燃料再製造、優質碳權的檢驗認證 (MRV) 制度，同時提供優質企業永續管理顧問服務與 ESG 之數據與評鑑指標之本土化，同時為饒舌音樂創作人。
+  `,
+  speaker06topic: '食品廢棄物生物處理法的可行性探討：以黑水虻為例',
+  speaker06content:
+    '無論是生活垃圾或是事業廢棄物，最常使用的處理方式是焚化或掩埋，然而臺灣地狹人稠，較難有餘裕興建新的大型處理設施。本座談以黑水虻生物處理法為例，探討有機廢棄物處理的各項可能性，與大眾共同構思在淨零世代中可能的解方。',
+  //speaker07
+  speaker07: '李若寧',
+  speaker07title: 'KPMG 經理',
+  speaker07intro:
+    'KPMG 安侯建業聯合會計師事務所長期關注社會創新與永續發展，自 2014 年成立社會企業服務團隊以來，長期耕耘並協助企業自本業重大性議題出發投入社會創新及 ESG 策略、陪伴使命型組織從社會使命為願景出發，透過議合利害關係人、辨別重要議題與建構營運發展策略等，自環境、社會、地方、文化等四大策略途徑發掘新產品、新服務的商業模式創新策略，不僅找到社會及環境問題之解方，更積極創造共享價值、開拓新市場，攜手為永續創造新契機。',
+  speaker07topic: '永續是門好生意?',
+  speaker07content:
+    '永續發展已是不可逆的風潮，但當永續成為創業的核心概念，如何把握精準切入點且真正回應問題，把風險轉為機會，在社會參與中創造商業價值，將是所有永續創業家們不可迴避的挑戰。',
 };
 
 const day = {
-  daytitle: 'content',
-  //   day101: 'Registration and Networking',
-  //   day102: 'Keynote Speaker Sharing Session',
-  //   day103: 'Lunch Break',
-  //   day104: 'Keynote Speaker Sharing Session',
-  //   day105: 'Keynote Speaker Sharing Session',
-  //   day106: 'Q&A and Wrap-Up',
-  //   day107: 'MAD School Seminar',
+  day1_01: '活動報到與自由交流',
+  day1_02: '專家講座 (一) & (二)',
+  day1_03: '午餐休息時間',
+  day1_04: '專家講座 (三) & (四)',
+  day1_05: '專家講座 (五) & (六) & (七)',
+  day1_06: '總問答與總結',
+  day1_07: 'MAD School Seminar',
+  //day2
+  day2_01: '活動報到與自由交流',
+  day2_02: '活動開幕及活動簡介',
+  day2_03: '貴賓致詞',
+  day2_04: '議題介紹',
+  day2_05: '午餐休息時間',
+  day2_06: '永續設計工作坊 (上)',
+  day2_07: '討論與休息時間',
+  day2_08: '社會創新工作坊 (下)',
+  day2_09: '討論與休息時間',
+  day2_10: '總問答與總結',
+  day2_11: '助教線上協助時間',
+  //day3
+  day3_01: '活動報到與自由交流',
+  day3_02: '創新顧問介紹',
+  day3_03: '各組成果簡報（上）',
+  day3_04: '午餐休息時間',
+  day3_05: '各組成果簡報（中）',
+  day3_06: '討論與休息時間',
+  day3_07: '各組成果簡報（下）',
+  day3_08: '評審評定與休息時間',
+  day3_09: '頒獎典禮及優勝團隊分享',
+  day3_10: '活動閉幕',
+};
+
+const mentor = {
+  mentor01: '陳迺欣',
+  mentor01title: '遊人設計 Yoshi Design Lab 共同創辦人',
+  mentor01intro: `陳迺欣 Kirsten, Yoshi Design Lab 共同創辦人，英國永續設計研究所畢業，並結合永續與數位的商業計劃拿到英國新創簽證。Kirsten 在廣告及新創擁有豐富經驗，過去曾服務國際品牌及開發跨國數位產品。Yoshi Design Lab 擅長從 0 至 1 找到商業與永續切入點，並轉化成商業及品牌策略，進而轉化成數位產品及體驗，目前致力於引導企業轉型成為願景型企業，並提供數位及永續商模的解決方案及永續素養教育。`,
+  //02
+  mentor02: '吳芳葆',
+  mentor02title: 'Jump5 設計職涯健檢平台 共同創辦人',
+  mentor02intro: `為 Jump5 設計職涯健檢平台共同創辦人，目前在串流公司負責日本地區的 OTT 串流平台與 SaaS 產品設計。在研究與設計近十年中，接觸過全球筆電市場、中美地區線上遊戲化教育、台灣數位金融等等產品，同時經歷多角色轉換，善於趨勢分析與研究、用戶研究與產品設計及客觀及多元的產品策略。
+  `,
+  //03
+  mentor03: '陳昕睿',
+  mentor03title: 'UX Research Coach & Consultant',
+  mentor03intro: `堅信研究就是探究的技巧，只有當探究來自對人類和技術最深切的好奇心時，它才能對世界產生影響。致力於探索技術如何影響人類生活並賦予人類改變世界的能力！`,
+};
+
+const workshops = {
+  workshops: ' 實戰型工作坊',
+  workshopsContent:
+    '本次活動由三位資歷豐富的導師透過工作坊的形式，帶領你探索永續設計的概念和實踐，並在過程中帶領你完成小小的設計挑戰培養解決問題的能力。',
+  workshopsDate: '2023.10.28',
+};
+
+const hackathon = {
+  hackathon: '永續設計黑客松',
+  hackathonContent:
+    '參加團隊將透過知識解決設計挑戰，並提出具有創意的永續解決方案。本次活動也邀請多位創辦人和教授擔任創新顧問，他們將同時提供具有商業與教育價值的建議，這將確保你能獲得多元的回饋。',
+  hackathonDate: '2023.10.29',
+};
+
+const advisor = {
+  advisor01: '黃立其',
+  advisor01title: '工研院｜產服中心 業務經理',
+  advisor01intro: `從事跨國新創生態圈政府專案的商務拓展和專案管理。綠色科技創業者，職涯峰迴路轉，接觸過法律、金融、教育、軟體、雲服務產業。陸續在中國、歐美參與了幾間與聯合國氣候行動、全球低碳經濟相關的新創公司，將區塊鏈、AI 技術應用在國際碳交易、再生能源等領域。
+  `,
+  //02
+  advisor02: '胡耀傑',
+  advisor02title: '美商 Turing Space Inc. 創辦人暨執行長',
+  advisor02intro: `胡耀傑現任美商 Turing Space 圖靈鏈創辦人暨執行長，跨國數位身份系統圖靈證書 Turing Certs 負責人，日本法政大學 GIS Fellow，TEDx 講者，Tatler Gen.T 2023 與關鍵評論網未來大人物 2020，美國加州柏克萊工程碩士與該校 2019 封面人物，曾於香港摩根大通與瑞士洛桑聯邦理工深造，幼時於奧林匹亞機器人排行全球第七位。
+
+  圖靈證書（Turing Certs）正在為世界解決信任傳遞問題，透過區塊鏈為所有人建立一個跨國數位身分履歷。目前已經有 9 個國家與地區的 150 間的政府、學校、機構開始使用圖靈的數位憑證管理平台，發行上萬張的數位證書，解決畢業證書、專業能力證明、不動產合約書、農產品歷程、綠電憑證、碳權憑證。圖靈位世界建立一個無紙化、安全隱私、100% 零碳數位化的未來。`,
+  // 9 advisor with empty value
+  advisor03: '陳冠宇',
+  advisor03title: 'ARTZY 共同創辦人',
+  advisor03intro: `因為在學生時期被一個創業課程啟發，與好友一起創立設計科技新創 ARTZY，解決了如 KKDay 、黛安芬、TSS、女人迷等知名品牌的設計痛點。同時也擔任不同教育組織的創業分享者，積極想要讓更多學生與年輕工作者提早接觸新創思考。
+
+  ARTZY 打造可規模化的設計產能服務，讓成長中的企業品牌能夠「輕鬆找到好設計」來滿足日益增加的數位行銷素材需求，同時也是矽谷加速器 500 Global 的進駐團隊。`,
+  //04
+  advisor04: '周宜雯',
+  advisor04title: 'SSlash studio 斜作股份有限公司｜循環設計總監',
+  advisor04intro: `循環設計總監，擁有 10 年的工業設計經驗，並具有廣泛的基礎和跨學科技能。擅長從產品設計、生產到回收再利用的全生命週期考量，致力於打造更永續的產品和生活方式，並協助企業與組織推動循環經濟。
+
+  Slash studio 是提供組織永續創新解方的實踐者，以設計打造永續生活，以行動實踐循環經濟。我們相信設計可以為永續生活帶來改變。我們以循環經濟為核心，透過專業的知識和經驗，協助組織減少浪費、創造價值，並打造更永續的未來。`,
+  //05
+  advisor05: 'Camila Saenz',
+  advisor05title: 'TUTEEMI 創辦人',
+  advisor05intro: `Camila Saenz 精通三種語言，並且是一位初創企業的創始人，具有在媒體製作行業工作的豐富經歷，尤其在攝影和攝影新聞方面。擅長公開演講、戰略公共關係規劃、管理和領導能力。
+
+  擁有國際工商管理碩士（IMBA）學位，專攻市場營銷和管理，畢業於台北銘傳大學。曾在倫敦商學院進修全球市場營銷和金融。目前正在國立台北科技大學攻讀博士學位。`,
+  //06
+  advisor06: '史耀云',
+  advisor06title: '前滴滴出行、Roblox｜商業模式與產品增長顧問',
+  advisor06intro: `資深國際化產品顧問，曾擔任台灣與美國新創產品導師和顧問，日常喜歡研究不同的商業模式，推廣商業模式產品化和 Smart Growth。
+  `,
+  //07
+  advisor07: '宋宜臻',
+  advisor07title: '好盒器 GoodToGo 共同創辦人',
+  advisor07intro: `受工業設計教育，曾在科技產業及學術界工作。2015 年共同發起「好盒器循環容器」計畫，致力於推動用循環取代拋棄，相信著我們可以一起建構「生活中的每個選項都是環境友善」的世界。
+
+  好盒器推動循環容器服務平台，串聯店舖提供可重複用飲料杯與餐盒，讓民眾在外帶或外送餐飲時，就可借走容器直接盛裝；使用完畢後，再歸還到任一歸還站點，實現外帶包裝零廢棄。`,
+  //08
+  advisor08: '劉憶涵',
+  advisor08title: 'ShowHue 選優科技 執行長',
+  advisor08intro: `ShowHue AI 自動化行銷圖像生成新創的共同創辦人暨執行長，熱愛自動化與新科技應用的 Maker，擅長搭建理論與實務之間的橋樑，從零到一實踐 Idea。曾任教育科技新創 CMO，幫助企業取得台灣最大市占率。致力使品牌能夠利用 AI 輕鬆運用影像，與顧客建立信任並提升品牌聯結度。  `,
+  //09
+  advisor09: '楊佳翰',
+  advisor09title: '國立成功大學創意產業設計研究所 ICID 副教授兼所長',
+  advisor09intro: `成大創產所副教授兼所長，並同時擔任成大藝術中心副主任，主要投入領域與專案包括服務設計、科技與創新管理、地方創生、高齡與共融服務等
+  `,
+};
+
+const register = {
+  register: '立即報名',
+  registerTitle: '如何報名 Pickupthon？',
+  registerStep01: '確認活動時間與地點',
+  eventDate: '2023.10.27（五）- 10.29（日）',
+  eventPlace: '新北市政府 Comma Lab 逗點實驗室：',
+  eventLocation: '新北市板橋區中山路 161 號 3 樓',
+  registerStep02: '確認想要參與的活動',
+  registerStep02content:
+    '永續論壇可以單獨以線上或線下的形式參與，而實戰型工作坊＆永續設計黑客松為組合活動需同時以線下形式參與。',
+  registerStep03: '確認要以個人或團隊方式報名',
+  registerStep03content: `實戰型工作坊＆永續設計黑客松限以 5 人團隊方式參與，若為個人報名歡迎在報名後加入專屬社群尋找你的隊友，如在活動前尚未找到隊友將由主辦單位幫助參賽者組隊。`,
+  registerStep04: '手刀前往報名',
+  registerStep04content: `歡迎前往報名參加 Pickupthon 活動，與國際學生＆業界專家一同交流！`,
 };
 
 export const localZh = {
@@ -67,4 +249,10 @@ export const localZh = {
   ...intro,
   ...seminar,
   ...day,
+  ...speaker,
+  ...mentor,
+  ...workshops,
+  ...hackathon,
+  ...advisor,
+  ...register,
 };

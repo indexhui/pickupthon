@@ -8,47 +8,47 @@ const HACKATHON_SCHEDULE = {
   events: [
     {
       time: '8:30-9:00',
-      content: 'day2_01',
+      content: 'day3_01',
     },
     {
       time: '9:00 - 9:30',
-      content: 'day2_02',
+      content: 'day3_02',
     },
     {
       time: '9:30 - 11:30',
-      content: 'day2_03',
+      content: 'day3_03',
       isYellow: true,
     },
     {
       time: '11:30 -12:30',
-      content: 'day2_04',
+      content: 'day3_04',
     },
     {
       time: '12:30 - 14:30',
-      content: 'day2_05',
+      content: 'day3_05',
       isYellow: true,
     },
     {
       time: '14:30 - 14:45',
-      content: 'day2_06',
-      isYellow: true,
+      content: 'day3_06',
     },
     {
       time: '14:45 - 16:45',
-      content: 'day2_07',
-    },
-    {
-      time: '16:45 - 17:00',
-      content: 'day2_08',
+      content: 'day3_07',
       isYellow: true,
     },
     {
+      time: '16:45 - 17:00',
+      content: 'day3_08',
+    },
+    {
       time: '17:00 - 17:20',
-      content: 'day2_09',
+      content: 'day3_09',
+      isYellow: true,
     },
     {
       time: '17:20 - 17:30',
-      content: 'day1_05',
+      content: 'day3_10',
     },
   ],
 };

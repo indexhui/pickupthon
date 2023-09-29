@@ -43,49 +43,48 @@ const WORKSHOPS_SCHEDULE = {
       content: 'day2_01',
     },
     {
-      time: '9:00 - 9:30',
+      time: '9:30 - 9:50',
       content: 'day2_02',
     },
     {
-      time: '9:30 - 11:30',
+      time: '9:50 - 10:25',
       content: 'day2_03',
-      isYellow: true,
     },
     {
-      time: '11:30 -12:30',
+      time: '10:25 -11:00',
       content: 'day2_04',
-    },
-    {
-      time: '12:30 - 14:30',
-      content: 'day2_05',
       isYellow: true,
     },
     {
-      time: '12:30 - 14:30',
+      time: '11:00 - 12:-0',
+      content: 'day2_05',
+    },
+    {
+      time: '12:00 - 14:00',
       content: 'day2_06',
       isYellow: true,
     },
     {
-      time: '14:30 - 14:45',
+      time: '14:00 - 14:15',
       content: 'day2_07',
     },
     {
-      time: '14:45 - 16:45',
+      time: '14:15 - 16:15',
       content: 'day2_08',
       isYellow: true,
     },
     {
-      time: '16:45 - 17:00',
+      time: '16:15 - 16:30',
       content: 'day2_09',
     },
     {
-      time: '17:00 - 17:20',
+      time: '16:30 - 17:30',
       content: 'day2_10',
       isYellow: true,
     },
     {
-      time: '17:20 - 17:30',
-      content: 'day1_05',
+      time: '18:00 - 22:00',
+      content: 'day2_11',
     },
   ],
 };

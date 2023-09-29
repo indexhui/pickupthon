@@ -36,7 +36,7 @@ const SectionRegister = () => {
             {t('registerTitle')}
           </Text>
         </Flex>
-        <Flex direction="column" align="center" p="40px" gap="20px">
+        <Flex direction="column" align="flex-start" p="40px" gap="20px">
           <Flex direction="column" w="100%">
             <Flex>
               <Text textStyle="h4" color="aquaGreen.500">
