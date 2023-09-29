@@ -76,7 +76,9 @@ const Hightlights = () => {
               'problems and create solutions',
               'with social innovation and ',
               'sustainability in mind',
-              '讓參與者了解問題並創造具有社會創新和永續概念的解決方案',
+              '讓參與者了解問題',
+              '並創造具有社會創新和',
+              '永續性的解決方案',
             ]}
             color="cloud.500"
             textStyle="h2"
