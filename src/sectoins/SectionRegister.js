@@ -66,7 +66,16 @@ const SectionRegister = () => {
             </Flex>
           ))}
         </Flex>
-        <Button w="120px" bgColor="orange.500" color="white" py="20px">
+        <Button
+          as={Link}
+          href="https://www.accupass.com/event/2308241411051114416924"
+          isExternal
+          w="120px"
+          colorScheme="orange"
+          bgColor="orange.500"
+          color="white"
+          py="20px"
+        >
           <Text textStyle="h5" color="white">
             {t('register')}
           </Text>

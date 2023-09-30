@@ -110,7 +110,9 @@ const speaker = {
   speaker04: `Alvin Huang`,
   speaker04title: `Founder of Le Bistrot Social`,
   speaker04topic: `The Execution of Social Innovation and Sustainability Awareness`,
-  speaker04content: ``,
+  speaker04content: `Sociopreneur Bar empowers youth to expand their social innovation participation and influence. Over two years, Sociopreneur Bar has developed a prototype for a social innovation engagement method. By conducting a series of practices, it allows young individuals interested in sustainability to progressively engage in ecological co-creation.
+
+  From 'Sociopreneur Chat Podcast' and 'Idea Hack Idea Sharing Sessions' to practical sustainability workshops like 'Carbon Assessment,' to organizing the 'Social Innovation Jam Hackathon' and promoting 'Rural School Revival,' it's evident that social innovation takes diverse forms. Sociopreneur Bar aims to create social value through collaboration involving technology, resources, and community.`,
   speaker04intro: `Le.Bistrot.Social is an online social innovation co-learning community & bar originating from Taiwan, combining virtual cloud and physical discussion with idea sharing sessions, SlJ multinational hackathons, and Social Innovation Chat podcasts, etc. What’s more, develops practical workshops on sustainability concepts such as campus carbon inventories, and assists local workers in practical entrepreneurship training. At the same time, we are also working with districts that are at risk of abandoning their schools, linking up public departments and start-ups to learn how to apply design thinking, public administration, and service sciences to the agile development of their professions.`,
   // 05
   speaker05: 'Chris Tang',

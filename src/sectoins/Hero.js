@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-import { Flex, Text, Image, Button } from '@chakra-ui/react';
+import { Flex, Text, Image, Button, Link } from '@chakra-ui/react';
 import banner from 'assets/images/banner.svg';
 import pickupthon2023 from 'assets/images/pickupthon2023.svg';
 import logoEN from 'assets/images/logo_en.svg';
@@ -35,7 +35,15 @@ const CTA = () => {
           alt="logo"
         />
       </Flex>
-      <Button colorScheme="orange" bgColor="orange.500" color="white" w="200px">
+      <Button
+        as={Link}
+        href="https://www.accupass.com/event/2308241411051114416924"
+        isExternal
+        colorScheme="orange"
+        bgColor="orange.500"
+        color="white"
+        w="200px"
+      >
         {t('register')}
       </Button>
     </Flex>

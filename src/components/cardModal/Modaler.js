@@ -19,7 +19,12 @@ const Modaler = props => {
   const { t } = useTranslation();
   return (
     <>
-      <Button bgColor="orange.400" color="white" onClick={onOpen}>
+      <Button
+        colorScheme="orange"
+        bgColor="orange.400"
+        color="white"
+        onClick={onOpen}
+      >
         More
       </Button>
       <Modal isOpen={isOpen} onClose={onClose} isCentered size="xl" maxW="80%">
