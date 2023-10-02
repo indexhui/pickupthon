@@ -15,6 +15,8 @@ import SectionSeminar from 'sectoins/Seminar/SectionSeminar';
 import SectionHackathon from 'sectoins/Hackathon/SectionHackathon';
 import SectionRegister from 'sectoins/SectionRegister';
 import SectionSupporter from 'sectoins/Supporters/SectionSupporter';
+import SectionFaq from 'sectoins/FAQ/SectionFaq';
+import Footer from 'sectoins/Footer';
 
 function App() {
   return (
@@ -46,6 +48,10 @@ function App() {
         <Element name="Supporters" id="Supporters">
           <SectionSupporter />
         </Element>
+        <Element name="FAQ" id="FAQ">
+          <SectionFaq />
+        </Element>
+        <Footer />
       </Flex>
     </ChakraProvider>
   );

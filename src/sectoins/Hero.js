@@ -17,10 +17,10 @@ const CTA = () => {
       <Text color="black" px="10px" bgColor="yellow.500">
         2023.10.27-29 (GMT+8)
       </Text>
-      <Flex w="400px" h="50px" position="relative">
+      <Flex w={{ base: '300px', lg: '400px' }} h="50px" position="relative">
         <Image
           opacity={isZhTW ? '0' : '1'}
-          w="400px"
+          w={{ base: '300px', lg: '400px' }}
           left="0"
           position="absolute"
           src={logoEN}
@@ -28,7 +28,7 @@ const CTA = () => {
         />
         <Image
           opacity={isZhTW ? '1' : '0'}
-          w="400px"
+          w={{ base: '300px', lg: '400px' }}
           left="0"
           position="absolute"
           src={logoZH}

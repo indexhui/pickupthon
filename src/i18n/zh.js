@@ -246,6 +246,16 @@ const register = {
   registerStep04content: `歡迎前往報名參加 Pickupthon 活動，與國際學生＆業界專家一同交流！`,
 };
 
+const faq = {
+  faq: '常見問題 FAQ',
+  faqQues01: '主辦單位會提供餐點嗎？',
+  faqAns01: `會的，除了豐富的活動，我們為你精心準備三天的美味午餐和精緻飲料（全部包含在活動費用中！）為創意和設計的探索提供充沛的能量。`,
+  faqQues02: '若一個人可以報名嗎？如何組隊？',
+  faqAns02: `若還沒組隊的朋友，一個人也可以報名參賽，籌備團隊屆時會發出 Discord 社群連結，在線上協助大家完成組隊順利參賽，不用擔心！`,
+  faqQues03: `若英文不好能報名嗎？現場有翻譯人員嗎？`,
+  faqAns03: `英文不好的朋友也歡迎報名參與哦！實體活動第二天黑客松工作坊現場將有 6 名助教提供即時雙語翻譯協助，其他活動天現場也都有工作人員協助，資料內容也都會以中英雙語呈現，不用擔心！`,
+};
+
 export const localZh = {
   ...header,
   ...intro,
@@ -257,4 +267,5 @@ export const localZh = {
   ...hackathon,
   ...advisor,
   ...register,
+  ...faq,
 };

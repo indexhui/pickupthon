@@ -236,6 +236,16 @@ const register = {
   registerStep04content: `We invite you to register and join the Pickupthon event, where you can engage in meaningful exchanges with international students and industry experts.`,
 };
 
+const faq = {
+  faq: 'FAQ',
+  faqQues01: 'Will there be food provided?',
+  faqAns01: `Yes, we will. In addition to exciting activities, we have carefully prepared three days of delicious lunches and exquisite beverages for you (all included in the event fee!) to provide you with ample energy for creative and design exploration.`,
+  faqQues02: 'Can I participate alone, and how do I find a team?',
+  faqAns02: `If you haven't formed a team yet, individuals are also welcome to register for the competition. The organizing team will provide a Discord community link to assist everyone in forming teams online, so there's no need to worry!`,
+  faqQues03: `What is the event format?`,
+  faqAns03: `Friends with limited English proficiency are also welcome to sign up! On the second day of the physical event, there will be 6 teaching assistants available to provide real-time bilingual translation assistance during the hackathon workshop. For other activities throughout the event, there will also be staff members available to assist, and all content will be presented in both Chinese and English, so there's no need to worry!`,
+};
+
 export const localEn = {
   ...header,
   ...intro,
@@ -247,4 +257,5 @@ export const localEn = {
   ...advisor,
   ...register,
   ...mentor,
+  ...faq,
 };
