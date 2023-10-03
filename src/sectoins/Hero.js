@@ -10,31 +10,19 @@ import logoPickup from 'assets/images/logo_pickup.svg';
 const CTA = () => {
   const { i18n, t } = useTranslation();
   const currentLanguage = i18n.language;
-  const isZhTW = currentLanguage === 'zh-TW';
+  // const isZhTW = currentLanguage === 'zh-TW';
 
   return (
     <Flex direction="column" gap="5px" pb="5%" align="flex-start">
       <Text color="black" px="10px" bgColor="yellow.500">
         2023.10.27-29 (GMT+8)
       </Text>
-      <Flex w={{ base: '300px', lg: '400px' }} h="50px" position="relative">
-        <Image
-          opacity={isZhTW ? '0' : '1'}
-          w={{ base: '300px', lg: '400px' }}
-          left="0"
-          position="absolute"
-          src={logoEN}
-          alt="logo"
-        />
-        <Image
-          opacity={isZhTW ? '1' : '0'}
-          w={{ base: '300px', lg: '400px' }}
-          left="0"
-          position="absolute"
-          src={logoZH}
-          alt="logo"
-        />
+      <Flex w={{ base: '300px', lg: '700px' }} py="10px" position="relative">
+        <Image w={{ base: '300px', lg: '700px' }} src={logoEN} alt="logo" />
       </Flex>
+      <Text pb={{ base: '12px', lg: '16px' }} textStyle="h5" color="cloud.500">
+        A Global Sustainable Design Hackthon
+      </Text>
       <Button
         as={Link}
         href="https://www.accupass.com/event/2308241411051114416924"
@@ -42,9 +30,9 @@ const CTA = () => {
         colorScheme="orange"
         bgColor="orange.500"
         color="white"
-        w="200px"
+        px="32px"
       >
-        {t('register')}
+        <Text textStyle="h5">{t('register')}</Text>
       </Button>
     </Flex>
   );
@@ -63,13 +51,6 @@ const Hero = () => {
       align="flex-end"
       px="10%"
     >
-      {/* <Image
-        position="absolute"
-        top="5%"
-        left="10%"
-        src={pickupthon2023}
-        alt="pickupthon2023"
-      /> */}
       <Image
         display={{ base: 'none', lg: 'block' }}
         position="absolute"

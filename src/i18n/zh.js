@@ -52,9 +52,15 @@ const intro = {
 
 const seminar = {
   seminarTitle: '永續論壇',
-  seminarContent:
-    '由 7 位業界專家組成的永續論壇，透過一系列講座讓你了解永續設計的核心概念和最新業界趨勢，並藉由實際案例分享獲得將解決方案落地的知識，同時為活動拉開序幕。',
+  seminarContent: '業界專家深入探討永續設計的應用',
   seminarDate: '2023.10.27',
+  seminarNote: `每場永續講座都包括了 30 分鐘的真實案例分享和問答環節。`,
+};
+
+const tag = {
+  tag01: '永續講者',
+  tag02: '飛行導師',
+  tag03: '創新顧問',
 };
 
 const speaker = {
@@ -256,6 +262,14 @@ const faq = {
   faqAns03: `英文不好的朋友也歡迎報名參與哦！實體活動第二天黑客松工作坊現場將有 6 名助教提供即時雙語翻譯協助，其他活動天現場也都有工作人員協助，資料內容也都會以中英雙語呈現，不用擔心！`,
 };
 
+const sup = {
+  supporter: '合作夥伴',
+  organizers: '主辦單位',
+  co: '協辦單位',
+  sup: '支持單位',
+  sponsor: '贊助單位',
+};
+
 export const localZh = {
   ...header,
   ...intro,
@@ -268,4 +282,6 @@ export const localZh = {
   ...advisor,
   ...register,
   ...faq,
+  ...tag,
+  ...sup,
 };

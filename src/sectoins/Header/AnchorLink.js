@@ -12,7 +12,7 @@ const AnchorLink = props => {
 
   return (
     <Link
-      offset={60}
+      offset={-20}
       spy={true}
       hashSpy={true}
       as={ReachLink}

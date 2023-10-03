@@ -2,7 +2,7 @@ const header = {
   Seminar: 'Seminar',
   Hackathon: 'Hackathon',
   Faq: 'FAQ',
-  Register: 'Registration',
+  Register: 'Register',
   Supporters: 'Supporters',
 };
 
@@ -47,8 +47,16 @@ const intro = {
 const seminar = {
   seminarTitle: 'Seminar',
   seminarContent:
-    'Our Sustainability Forum, composed of 7 industry experts, will provide a series of lectures to acquaint you with the core concepts of sustainable design and the latest industry trends. Through real case studies, you will gain insights into actionable solutions, setting the stage for the event.',
+    'Industry Experts’ Insights into applications of Sustainable Design',
   seminarDate: 'October 27 Fri.',
+  seminarNote: `Each expert lecture includes a 30-minute session for real-life
+  examples sharing and Q&A.s`,
+};
+
+const tag = {
+  tag01: 'Speaker',
+  tag02: 'Mentor',
+  tag03: 'Advisor',
 };
 
 const day = {
@@ -59,7 +67,6 @@ const day = {
   day1_04: 'Keynote Speaker Sharing Session',
   day1_05: 'Keynote Speaker Sharing Session',
   day1_06: 'Q&A and Wrap-Up',
-  day1_07: 'MAD School Seminar',
   //day2
   day2_01: 'Registration and Networking',
   day2_02: 'Event Opening and Introduction',
@@ -101,9 +108,9 @@ const speaker = {
   speaker02intro: `Ian Jang is the Founder of UXI Design Corp. Ltd., and the executive board director of Asian Pacific Service Design Association as well as Adjunct Assistant Professor, National Taipei University of Technology. In the year of 2000, Mr. Jang graduated from the Computational Design Graduate Program at Carnegie Mellon University. In his career path, he has been an interface designer, UX designer, associate usability design manager, product planning manager, UX design director...etc. During 2012 to 2017, He served as a board director of the User Experience Design Association, China. After that, during 2020 to 2022 he served as the president of Taiwan User Experience Design Association. He acted as jury member for various UX Design, Service Design and Innovation / Entrepreneurship Awards ever since. In 2009, UXI Design Corp was founded by Mr. Jang. The design agency in Taiwan focuses on user experience design, interface design, and service design, serving the clients including: finance, transportation, manufacture, logistics, e-commerce, retail, travel, catering industries. The design works of UXI Design have been recognized and awarded by international and domestic design awards.`,
   // 03
   speaker03: 'Aaron Chuang',
-  speaker03title:
+  speaker03title: '500 Startups Mentor',
+  speaker03topic:
     'Sustainable Finance, Corporate Governance, and How to Leverage UI / UX for ESG.',
-  speaker03topic: 'Design and Futures Studies',
   speaker03content: `It is a “must have” for containing ESG in the financial products, and the “G” stands for the importance of Corporate Governance. However, how to implement ESG thoroughly instead of just being a “ESG dressing”? How UX designers leverage their expertise in the wave of Sustainable Finance?`,
   speaker03intro: `The startup Mentor of 500 Startups. As a sole-founder in Hong Kong, Corporate Banker in Taipei, Private Equity Investor in Beijing, Blockchain Hedge Fund in Seattle and the Financial Advisor in Miami. Expertise in M&A and fundraising. Now live in Singapore. Execute Ming Li Ventures and coach people by the online MBA “The Bottom Line”.Just shy of 40, and bringing Taiwan to be seen by the world is the life goal. To dedicate being a game changer in education in order to turn Taiwan to a joyfuller land for the kids.`,
   //04
@@ -213,7 +220,7 @@ const workshops = {
 };
 
 const hackathon = {
-  hackathon: 'hackathon',
+  hackathon: 'Hackathon',
   hackathonContent:
     'Global Sharing through Creativity with Innovative Consultant',
   hackathonDate: 'October 29 Sun.',
@@ -222,17 +229,17 @@ const hackathon = {
 const register = {
   register: 'Register',
   registerTitle: 'How to Register?',
-  registerStep01: 'Confirm Event Date and Location',
+  registerStep01: '➊ Confirm Event Date and Location',
   eventDate: '2023.10.27 Fri. - 10.29 Sun.',
   eventPlace: 'Comma Lab, New Taipei City Government',
   eventLocation:
     '3rd Floor, 161 Zhongshan Road, Banqiao District, New Taipei City, Taiwan.',
-  registerStep02: 'Choose Your Desired Activities',
+  registerStep02: '➋ Choose Your Desired Activities',
   registerStep02content:
     'The Sustainability Forum is available for individual participation, both online and offline. For the Practical Workshops & Sustainable Design Hackathon, participation is in combination and must be in an offline format.',
-  registerStep03: 'Decide Whether to Register as an Individual or a Team',
+  registerStep03: '➌ Decide Whether to Register as an Individual or a Team',
   registerStep03content: `Practical Workshops & Sustainable Design Hackathon require participation in teams of up to 5 members. If registering as an individual, you can find teammates in our dedicated community after registration. If you haven't found teammates before the event, our organizers will assist in forming teams.`,
-  registerStep04: 'Register Now !',
+  registerStep04: '➍ Register Now !',
   registerStep04content: `We invite you to register and join the Pickupthon event, where you can engage in meaningful exchanges with international students and industry experts.`,
 };
 
@@ -244,6 +251,14 @@ const faq = {
   faqAns02: `If you haven't formed a team yet, individuals are also welcome to register for the competition. The organizing team will provide a Discord community link to assist everyone in forming teams online, so there's no need to worry!`,
   faqQues03: `What is the event format?`,
   faqAns03: `Friends with limited English proficiency are also welcome to sign up! On the second day of the physical event, there will be 6 teaching assistants available to provide real-time bilingual translation assistance during the hackathon workshop. For other activities throughout the event, there will also be staff members available to assist, and all content will be presented in both Chinese and English, so there's no need to worry!`,
+};
+
+const sup = {
+  supporter: 'Supporters',
+  organizers: 'Organizers',
+  co: 'Co-organizers',
+  sup: 'Supporting Partners',
+  sponsor: 'Sponsor',
 };
 
 export const localEn = {
@@ -258,4 +273,6 @@ export const localEn = {
   ...register,
   ...mentor,
   ...faq,
+  ...tag,
+  ...sup,
 };

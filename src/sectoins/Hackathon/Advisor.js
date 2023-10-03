@@ -80,7 +80,7 @@ const ASVISOR_DATA = [
 
 const Advisor = () => {
   return (
-    <SimpleGrid columns={{ base: 1, lg: 3 }} spacing={4}>
+    <SimpleGrid columns={{ base: 1, lg: 3 }} spacing={6}>
       {ASVISOR_DATA.map((item, index) => (
         <SmallCard key={index} {...item} />
       ))}

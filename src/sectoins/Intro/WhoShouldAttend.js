@@ -30,7 +30,7 @@ const WhoShouldAttend = () => {
     >
       <Flex
         position={{ base: 'relative', lg: 'sticky' }}
-        top="40px"
+        top={{ base: 'unset', lg: '100px' }}
         w={{ base: '100%', lg: '400px' }}
         direction="column"
         py={{ base: '40px', lg: 'unset' }}

@@ -15,14 +15,14 @@ const HIGHLIGHT_DATA = [
     title: 'introSubtitle2_3',
     content: 'introContent2_3',
   },
-  {
-    title: 'introSubtitle2_4',
-    content: 'introContent2_4',
-  },
-  {
-    title: 'introSubtitle2_5',
-    content: 'introContent2_5',
-  },
+  // {
+  //   title: 'introSubtitle2_4',
+  //   content: 'introContent2_4',
+  // },
+  // {
+  //   title: 'introSubtitle2_5',
+  //   content: 'introContent2_5',
+  // },
   {
     title: 'introSubtitle2_6',
     content: 'introContent2_6',
@@ -31,10 +31,10 @@ const HIGHLIGHT_DATA = [
     title: 'introSubtitle2_7',
     content: 'introContent2_7',
   },
-  {
-    title: 'introSubtitle2_8',
-    content: 'introContent2_8',
-  },
+  // {
+  //   title: 'introSubtitle2_8',
+  //   content: 'introContent2_8',
+  // },
   {
     title: 'introSubtitle2_9',
     content: 'introContent2_9',
@@ -53,10 +53,11 @@ const Hightlights = () => {
     >
       <Flex
         position={{ base: 'unset', lg: 'sticky' }}
-        top={{ base: 'unset', lg: '40px' }}
+        top={{ base: 'unset', lg: '100px' }}
         w={{ base: '100%', lg: '400px' }}
         direction="column"
         py={{ base: '40px', lg: 'unset' }}
+        pr={{ base: '0', lg: '40px' }}
       >
         <Text
           color="yellow.500"

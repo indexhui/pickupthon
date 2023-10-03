@@ -5,20 +5,21 @@ import AnchorLink from './AnchorLink';
 const LIST_DATA = [
   {
     name: 'Pickupthon',
-    to: 'Pickupthon',
+    to: 'Hero',
   },
   {
     name: 'Seminar',
     to: 'Seminar',
   },
   {
+    name: 'Workshops',
+    to: 'Workshops',
+  },
+  {
     name: 'Hackathon',
     to: 'Hackathon',
   },
-  {
-    name: 'FAQ',
-    to: 'FAQ',
-  },
+
   {
     name: 'Register',
     to: 'Register',
@@ -26,6 +27,10 @@ const LIST_DATA = [
   {
     name: 'Supporters',
     to: 'Supporters',
+  },
+  {
+    name: 'FAQ',
+    to: 'FAQ',
   },
 ];
 

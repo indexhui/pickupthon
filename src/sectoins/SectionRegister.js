@@ -20,7 +20,13 @@ const SectionRegister = () => {
   const { t } = useTranslation();
 
   return (
-    <Flex w="100%" px="20px" pb="20px" direction="column" align="center">
+    <Flex
+      w="100%"
+      px="20px"
+      py={{ base: '40px', lg: '60px' }}
+      direction="column"
+      align="center"
+    >
       <Flex
         w={{ base: '100%', lg: '80%' }}
         maxW="1080px"
@@ -40,7 +46,7 @@ const SectionRegister = () => {
           <Flex direction="column" w="100%">
             <Flex>
               <Text textStyle="h4" color="aquaGreen.500">
-                1.{t('registerStep01')}
+                {t('registerStep01')}
               </Text>
             </Flex>
             <Flex direction="column">
@@ -58,7 +64,7 @@ const SectionRegister = () => {
           {REGISTER.map((item, index) => (
             <Flex direction="column">
               <Text textStyle="h4" color="aquaGreen.500">
-                {index + 2}.{t(item.step)}
+                {t(item.step)}
               </Text>
               <Text textStyle="b1" color="aquaGreen.500">
                 {t(item.content)}

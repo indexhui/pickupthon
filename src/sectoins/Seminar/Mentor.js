@@ -1,5 +1,4 @@
 import { SimpleGrid } from '@chakra-ui/react';
-import speaker01 from 'assets/images/speaker/speaker01.png';
 import SmallCard from 'components/cardModal/SmallCard';
 import mentor_01 from 'assets/images/mentor/mentor_01.png';
 import mentor_02 from 'assets/images/mentor/mentor_02.png';
@@ -30,9 +29,9 @@ const MENTOR_DATA = [
 ];
 const Mentor = () => {
   return (
-    <SimpleGrid columns={{ base: 1, lg: 3 }} spacing={4}>
+    <SimpleGrid columns={{ base: 1, lg: 3 }} spacing={5}>
       {MENTOR_DATA.map((item, index) => (
-        <SmallCard key={index} {...item} />
+        <SmallCard key={index} {...item} isMentor />
       ))}
     </SimpleGrid>
   );

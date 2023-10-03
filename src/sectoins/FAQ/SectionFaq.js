@@ -54,7 +54,7 @@ const SectoinFaq = () => {
               key={index}
               border="1px solid"
               borderColor="aquaGreen.500"
-              bgColor="gray.800"
+              bgColor="grey.800"
               rounded={{ base: '12px', lg: '20px' }}
             >
               {({ isExpanded }) => (

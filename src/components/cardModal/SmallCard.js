@@ -11,10 +11,12 @@ import {
 } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 import { EarthIcon } from 'components/icons/EarthIcon';
+import tag02 from 'assets/images/tag02.svg';
+import tag03 from 'assets/images/tag03.svg';
 
 const SmallCard = props => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { name, title, link, intro, image } = props;
+  const { name, title, link, intro, image, isMentor } = props;
   const { t } = useTranslation();
   return (
     <>
@@ -35,7 +37,24 @@ const SmallCard = props => {
           align="center"
           justify="center"
           pb="8px"
+          position="relative"
         >
+          <Flex
+            bgImage={isMentor ? tag02 : tag03}
+            bgSize="contain"
+            bgRepeat="no-repeat"
+            w="100px"
+            h="60px"
+            position="absolute"
+            top="-15px"
+            left="-20px"
+            justify="center"
+            align="center"
+          >
+            <Text textStyle="h5" color="aquaGreen.500" pr="10px">
+              {isMentor ? t('tag02') : t('tag03')}
+            </Text>
+          </Flex>
           <Image src={image} h="70%" w="80%" objectFit="cover" />
           <Flex
             bgColor="aquaGreen.500"

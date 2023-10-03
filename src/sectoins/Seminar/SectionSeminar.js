@@ -1,10 +1,10 @@
 import { Flex, Text } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 import Schedule from 'sectoins/Schedule/Schedule';
-import Title from 'components/Title';
 import Speaker from './Speaker';
 import Mentor from './Mentor';
 import waveTop from 'assets/images/waveTop.svg';
+import { Element } from 'react-scroll';
 
 const SEMINAR_SCHEDULE = {
   day: 'DAY 1',
@@ -32,6 +32,11 @@ const SEMINAR_SCHEDULE = {
       content: 'day1_05',
       isYellow: true,
     },
+    {
+      time: '16:30-17:30',
+      content: 'day1_06',
+      isYellow: true,
+    },
   ],
 };
 
@@ -56,7 +61,7 @@ const WORKSHOPS_SCHEDULE = {
       isYellow: true,
     },
     {
-      time: '11:00 - 12:-0',
+      time: '11:00 - 12:00',
       content: 'day2_05',
     },
     {
@@ -105,17 +110,27 @@ const Day1 = () => {
         <Text textStyle="h2" color="yellow.500">
           DAY 1 - {t('seminarTitle')}
         </Text>
-        <Text textStyle="h5" color="cloud.500" mt="20px">
+        <Text textStyle="h5" color="cloud.500">
           {t('seminarContent')}
         </Text>
-        <Text textStyle="h4" color="black" bgColor="yellow.500" mt="20px">
+        <Text
+          textStyle="h4"
+          color="black"
+          bgColor="yellow.500"
+          mt={{ base: '20px', lg: '60px' }}
+        >
           {t('seminarDate')}
         </Text>
-        <Flex w="100%" pt="40px" pb="60px" gap="12px" direction="column">
+        <Flex
+          w="100%"
+          pt={{ base: '24px', lg: '40px' }}
+          pb={{ base: '32px', lg: '60px' }}
+          gap="12px"
+          direction="column"
+        >
           <Schedule content={SEMINAR_SCHEDULE} />
           <Text textStyle="p2" color="white">
-            Each expert lecture includes a 30-minute session for real-life
-            examples sharing and Q&A.
+            {t('seminarNote')}
           </Text>
         </Flex>
       </Flex>
@@ -150,14 +165,12 @@ const Day2 = () => {
           <Schedule content={WORKSHOPS_SCHEDULE} />
         </Flex>
       </Flex>
-
       <Mentor />
     </Flex>
   );
 };
 
 const SectionSeminar = () => {
-  const { t } = useTranslation();
   return (
     <Flex w="100%" justify="center" align="center" direction="column">
       <Flex
@@ -174,7 +187,9 @@ const SectionSeminar = () => {
         direction="column"
       >
         <Day1 />
-        <Day2 />
+        <Element name="Workshops" id="Workshops">
+          <Day2 />
+        </Element>
       </Flex>
     </Flex>
   );

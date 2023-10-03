@@ -7,7 +7,7 @@ const Footer = () => {
       align="center"
       justify="center"
       w="100%"
-      bgColor="gray.800"
+      bgColor="grey.800"
       as="footer"
       direction="column"
       py={{ base: '40px', lg: '80px' }}

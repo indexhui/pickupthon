@@ -6,7 +6,7 @@ const textStyles = {
   },
   // 一般的標題
   h2: {
-    fontSize: { base: '44px', lg: '80px' },
+    fontSize: { base: '40px', lg: '60px' },
     lineHeight: { base: '150%', lg: '150%' },
     fontWeight: 700,
     color: 'cloud.500',

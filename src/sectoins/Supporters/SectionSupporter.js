@@ -1,4 +1,5 @@
 import { Flex, SimpleGrid, Text, Image } from '@chakra-ui/react';
+import { useTranslation } from 'react-i18next';
 import pickup from 'assets/images/brand/pickup.png';
 import co_01 from 'assets/images/brand/co_01.png';
 import co_02 from 'assets/images/brand/co_02.png';
@@ -25,6 +26,7 @@ import sponsor_01 from 'assets/images/brand/sponsor/sponsor_01.png';
 import sponsor_02 from 'assets/images/brand/sponsor/sponsor_02.png';
 
 const SectionSupporter = () => {
+  const { t } = useTranslation();
   return (
     <Flex
       w="100%"
@@ -36,7 +38,7 @@ const SectionSupporter = () => {
       px="20px"
     >
       <Text textStyle="h2" color="yellow.500">
-        Supporter
+        {t('supporter')}
       </Text>
 
       <Flex
@@ -47,13 +49,13 @@ const SectionSupporter = () => {
         gap="20px"
       >
         <Text textStyle="h4" color="cloud.500">
-          Organizers
+          {t('organizers')}
         </Text>
         <Image src={pickup} />
       </Flex>
       <Flex w="80%" align="center" direction="column" gap="20px">
         <Text textStyle="h4" color="cloud.500">
-          Co-organizers{' '}
+          {t('co')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
           {[co_01, co_02, co_03, co_04].map((item, index) => (
@@ -63,7 +65,7 @@ const SectionSupporter = () => {
       </Flex>
       <Flex w="80%" align="center" direction="column" gap="20px">
         <Text textStyle="h4" color="cloud.500">
-          Supporting Partners
+          {t('sup')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
           {[
@@ -91,7 +93,7 @@ const SectionSupporter = () => {
       </Flex>
       <Flex w="80%" align="center" direction="column" gap="20px">
         <Text textStyle="h4" color="cloud.500">
-          Sponsor
+          {t('sponsor')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
           {[sponsor_01, sponsor_02].map((item, index) => (

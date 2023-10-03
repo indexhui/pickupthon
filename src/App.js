@@ -29,10 +29,12 @@ function App() {
         bgSize="32px 32px"
         minH="100vh"
       >
-        <Element name="hero" id="hero">
+        <Element name="header" id="header">
           <Header />
         </Element>
-        <Hero />
+        <Element name="Hero" id="Hero">
+          <Hero />
+        </Element>
         <Element name="Intro" id="Intro">
           <SectionPickupthon />
         </Element>
