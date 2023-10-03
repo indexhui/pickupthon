@@ -167,7 +167,7 @@ const mentor = {
   `,
   //03
   mentor03: '陳昕睿',
-  mentor03title: 'UX Research Coach & Consultant',
+  mentor03title: 'UX 研究教練與顧問',
   mentor03intro: `堅信研究就是探究的技巧，只有當探究來自對人類和技術最深切的好奇心時，它才能對世界產生影響。致力於探索技術如何影響人類生活並賦予人類改變世界的能力！`,
 };
 
