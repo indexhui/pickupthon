@@ -12,6 +12,7 @@ import {
 
 import { useTranslation } from 'react-i18next';
 import { EarthIcon } from 'components/icons/EarthIcon';
+import closeBtn from 'assets/images/closeBtn.svg';
 
 const Modaler = props => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -38,8 +39,17 @@ const Modaler = props => {
             rounded="40px"
             justify="center"
             align="stretch"
-            overflow="hidden"
+            // overflow="hidden"
+            position="relative"
           >
+            <Image
+              src={closeBtn}
+              position="absolute"
+              top="-23px"
+              right="-23px"
+              onClick={onClose}
+              cursor="pointer"
+            />
             <Flex
               direction="column"
               w={{ base: '100%', lg: '60%' }}
@@ -80,6 +90,7 @@ const Modaler = props => {
             <Flex
               w="40%"
               bgColor="orange.400"
+              borderRadius="0 40px 40px 0"
               justify="center"
               display={{ base: 'none', lg: 'flex' }}
             >

@@ -13,6 +13,7 @@ import { useTranslation } from 'react-i18next';
 import { EarthIcon } from 'components/icons/EarthIcon';
 import tag02 from 'assets/images/tag02.svg';
 import tag03 from 'assets/images/tag03.svg';
+import closeBtn from 'assets/images/closeBtn.svg';
 
 const SmallCard = props => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -83,8 +84,17 @@ const SmallCard = props => {
             rounded="40px"
             justify="center"
             align="stretch"
-            overflow="hidden"
+            // overflow="hidden"
+            position="relative"
           >
+            <Image
+              src={closeBtn}
+              position="absolute"
+              top="-23px"
+              right="-23px"
+              onClick={onClose}
+              cursor="pointer"
+            />
             <Flex
               direction="column"
               w={{ base: '100%', lg: '60%' }}
@@ -115,6 +125,7 @@ const SmallCard = props => {
             <Flex
               w="40%"
               bgColor="orange.400"
+              borderRadius="0 40px 40px 0"
               justify="center"
               display={{ base: 'none', lg: 'flex' }}
             >
