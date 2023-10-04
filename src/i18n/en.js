@@ -263,7 +263,7 @@ const sup = {
   organizers: 'Organizers',
   co: 'Co-organizers',
   sup: 'Supporting Partners',
-  sponsor: 'Sponsor',
+  sponsor: 'Sponsors',
 };
 
 export const localEn = {
