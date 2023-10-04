@@ -1,4 +1,4 @@
-import { Flex, SimpleGrid, Text, Image } from '@chakra-ui/react';
+import { Flex, SimpleGrid, Text, Image, Link } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 import pickup from 'assets/images/brand/pickup.png';
 import co_01 from 'assets/images/brand/co_01.png';
@@ -24,6 +24,105 @@ import sup_16 from 'assets/images/brand/sup/sup_16.png';
 import sup_17 from 'assets/images/brand/sup/sup_17.png';
 import sponsor_01 from 'assets/images/brand/sponsor/sponsor_01.png';
 import sponsor_02 from 'assets/images/brand/sponsor/sponsor_02.png';
+
+const co = [
+  {
+    img: co_01,
+    link: 'https://instagram.com/youth.ntpc?igshid=MzRlODBiNWFlZA==',
+  },
+  {
+    img: co_02,
+    link: 'https://www.facebook.com/madschooledusg/',
+  },
+  {
+    img: co_03,
+  },
+  {
+    img: co_04,
+  },
+];
+
+const sup = [
+  {
+    img: sup_01,
+    link: 'https://portaly.cc/aapdgo',
+  },
+  {
+    img: sup_02,
+    link: 'www.acue.design',
+  },
+  {
+    img: sup_03,
+    link: 'https://ARTZY.work',
+  },
+  {
+    img: sup_04,
+    link: 'https://daoori.com',
+  },
+  {
+    img: sup_05,
+    link: 'https://www.packageplus-tw.com/',
+  },
+  {
+    img: sup_06,
+    link: 'https://www.facebook.com/SocialAED',
+  },
+  {
+    img: sup_07,
+    link: 'https://www.linkedin.com/company/tryspot/',
+  },
+  {
+    img: sup_08,
+    link: '',
+  },
+  {
+    img: sup_09,
+    link: 'https://www.facebook.com/XChange.tw',
+  },
+  {
+    img: sup_10,
+    link: 'https://www.yourator.co/',
+  },
+  {
+    img: sup_11,
+    link: 'https://www.instagram.com/oneday.software/',
+  },
+  {
+    img: sup_12,
+    link: 'https://www.tysda.earth/',
+  },
+  {
+    img: sup_13,
+    link: 'https://www.instagram.com/bizthinking/',
+  },
+  {
+    img: sup_14,
+    link: 'https://goodtogo.tw',
+  },
+  {
+    img: sup_15,
+    link: '',
+  },
+  {
+    img: sup_16,
+    link: 'https://www.facebook.com/Le.Bistrot.Social/',
+  },
+  {
+    img: sup_17,
+    link: 'https://www.uxi-design.com ',
+  },
+];
+
+const sponsor = [
+  {
+    img: sponsor_01,
+    link: 'https://jumping.group/',
+  },
+  {
+    img: sponsor_02,
+    link: 'https://jumping.group/',
+  },
+];
 
 const SectionSupporter = () => {
   const { t } = useTranslation();
@@ -58,8 +157,15 @@ const SectionSupporter = () => {
           {t('co')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
-          {[co_01, co_02, co_03, co_04].map((item, index) => (
-            <Image key={index} src={item} />
+          {co.map((item, index) => (
+            <Link
+              href={item.link}
+              isExternal
+              transition={'all 0.3s ease'}
+              _hover={{ boxShadow: 'xl', transform: 'scale(1.05)' }}
+            >
+              <Image key={index} src={item.img} />
+            </Link>
           ))}
         </SimpleGrid>
       </Flex>
@@ -68,26 +174,15 @@ const SectionSupporter = () => {
           {t('sup')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
-          {[
-            sup_01,
-            sup_02,
-            sup_03,
-            sup_04,
-            sup_05,
-            sup_06,
-            sup_07,
-            sup_08,
-            sup_09,
-            sup_10,
-            sup_11,
-            sup_12,
-            sup_13,
-            sup_14,
-            sup_15,
-            sup_16,
-            sup_17,
-          ].map((item, index) => (
-            <Image key={index} src={item} />
+          {sup.map((item, index) => (
+            <Link
+              href={item.link}
+              isExternal
+              transition={'all 0.3s ease'}
+              _hover={{ boxShadow: 'xl', transform: 'scale(1.05)' }}
+            >
+              <Image key={index} src={item.img} />
+            </Link>
           ))}
         </SimpleGrid>
       </Flex>
@@ -96,8 +191,15 @@ const SectionSupporter = () => {
           {t('sponsor')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
-          {[sponsor_01, sponsor_02].map((item, index) => (
-            <Image key={index} src={item} />
+          {sponsor.map((item, index) => (
+            <Link
+              href={item.link}
+              isExternal
+              transition={'all 0.3s ease'}
+              _hover={{ boxShadow: 'xl', transform: 'scale(1.05)' }}
+            >
+              <Image key={index} src={item.img} />
+            </Link>
           ))}
         </SimpleGrid>
       </Flex>

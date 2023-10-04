@@ -35,7 +35,6 @@ const SEMINAR_SCHEDULE = {
     {
       time: '16:30-17:30',
       content: 'day1_06',
-      isYellow: true,
     },
   ],
 };
