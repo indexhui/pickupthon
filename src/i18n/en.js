@@ -1,9 +1,14 @@
 const header = {
   Seminar: 'Seminar',
   Hackathon: 'Hackathon',
-  Faq: 'FAQ',
+  headerFaq: 'FAQ',
   Register: 'Register',
   Supporters: 'Supporters',
+  Workshops: 'Workshops',
+};
+
+const hero = {
+  heroSubtitle: 'A Global Sustainable Design Hackthon',
 };
 
 const intro = {
@@ -275,4 +280,5 @@ export const localEn = {
   ...faq,
   ...tag,
   ...sup,
+  ...hero,
 };

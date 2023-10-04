@@ -29,7 +29,7 @@ const LIST_DATA = [
     to: 'Supporters',
   },
   {
-    name: 'FAQ',
+    name: 'headerFaq',
     to: 'FAQ',
   },
 ];

@@ -1,9 +1,14 @@
 const header = {
   Seminar: '永續論壇',
   Hackathon: '黑客松',
-  Faq: '常見問題',
+  headerFaq: '常見問題',
   Register: '報名資訊',
   Supporters: '合作夥伴',
+  Workshops: '工作坊',
+};
+
+const hero = {
+  heroSubtitle: '國際永續設計黑客松',
 };
 
 const intro = {
@@ -173,15 +178,13 @@ const mentor = {
 
 const workshops = {
   workshops: ' 實戰型工作坊',
-  workshopsContent:
-    '本次活動由三位資歷豐富的導師透過工作坊的形式，帶領你探索永續設計的概念和實踐，並在過程中帶領你完成小小的設計挑戰培養解決問題的能力。',
+  workshopsContent: '透過永續設計工作坊深入探討議題',
   workshopsDate: '2023.10.28',
 };
 
 const hackathon = {
   hackathon: '永續設計黑客松',
-  hackathonContent:
-    '參加團隊將透過知識解決設計挑戰，並提出具有創意的永續解決方案。本次活動也邀請多位創辦人和教授擔任創新顧問，他們將同時提供具有商業與教育價值的建議，這將確保你能獲得多元的回饋。',
+  hackathonContent: '與創新顧問一起透過創造力與全球分享',
   hackathonDate: '2023.10.29',
 };
 
@@ -284,4 +287,5 @@ export const localZh = {
   ...faq,
   ...tag,
   ...sup,
+  ...hero,
 };
