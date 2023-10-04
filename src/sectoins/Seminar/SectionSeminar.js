@@ -99,7 +99,6 @@ const Day1 = () => {
     <Flex w="100%" align="center" justify="center" direction="column">
       <Flex
         zIndex="1"
-        mt="-60px"
         w={{ base: '100%', lg: '80%' }}
         px="12px"
         maxW="856px"
