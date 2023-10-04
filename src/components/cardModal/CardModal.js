@@ -65,6 +65,7 @@ const CardModal = props => {
           px="2px"
           textStyle="h5"
           bgColor="yellow.500"
+          display="inline"
           color="aquaGreen.600"
         >
           {t(topic)}

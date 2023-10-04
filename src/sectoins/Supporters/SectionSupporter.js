@@ -38,8 +38,12 @@ const co = [
     img: co_03,
   },
   {
-    img: co_04,
+    img: sup_16,
+    link: 'https://www.facebook.com/Le.Bistrot.Social/',
   },
+  // {
+  //   img: co_04,
+  // },
 ];
 
 const sup = [
@@ -49,7 +53,7 @@ const sup = [
   },
   {
     img: sup_02,
-    link: 'www.acue.design',
+    link: 'http://acue.design',
   },
   {
     img: sup_03,
@@ -104,10 +108,6 @@ const sup = [
     link: '',
   },
   {
-    img: sup_16,
-    link: 'https://www.facebook.com/Le.Bistrot.Social/',
-  },
-  {
     img: sup_17,
     link: 'https://www.uxi-design.com ',
   },
@@ -154,10 +154,10 @@ const SectionSupporter = () => {
       </Flex>
       <Flex w="80%" align="center" direction="column" gap="20px">
         <Text textStyle="h4" color="cloud.500">
-          {t('co')}
+          {t('sponsor')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
-          {co.map((item, index) => (
+          {sponsor.map((item, index) => (
             <Link
               href={item.link}
               isExternal
@@ -169,6 +169,7 @@ const SectionSupporter = () => {
           ))}
         </SimpleGrid>
       </Flex>
+
       <Flex w="80%" align="center" direction="column" gap="20px">
         <Text textStyle="h4" color="cloud.500">
           {t('sup')}
@@ -188,10 +189,10 @@ const SectionSupporter = () => {
       </Flex>
       <Flex w="80%" align="center" direction="column" gap="20px">
         <Text textStyle="h4" color="cloud.500">
-          {t('sponsor')}
+          {t('co')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
-          {sponsor.map((item, index) => (
+          {co.map((item, index) => (
             <Link
               href={item.link}
               isExternal
