@@ -21,7 +21,7 @@ const CTA = () => {
         <Image w={{ base: '300px', lg: '700px' }} src={logoEN} alt="logo" />
       </Flex>
       <Text pb={{ base: '12px', lg: '16px' }} textStyle="h5" color="cloud.500">
-        A Global Sustainable Design Hackthon
+        {t('heroSubtitle')}
       </Text>
       <Button
         as={Link}

@@ -1,7 +1,7 @@
 import { Flex, Text } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 
-const LanguageSwitcher = () => {
+const LanguageSwitcher = ({ onClose }) => {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
   const isZhTW = currentLanguage === 'zh-TW';
@@ -13,10 +13,13 @@ const LanguageSwitcher = () => {
       i18n.changeLanguage('zh-TW');
       localStorage.setItem('language', 'zh-TW');
     }
+    if (onClose) {
+      onClose();
+    }
   };
   return (
     <Flex
-      ml="10px"
+      ml={{ base: 'unset', lg: '10px' }}
       onClick={() => toggleLanguageMode()}
       border="1px solid white"
       p="2px 12px"

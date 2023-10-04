@@ -3,6 +3,11 @@ import '@fontsource/montserrat/500.css';
 import '@fontsource/montserrat/600.css';
 import '@fontsource/montserrat/700.css';
 
+import '@fontsource/noto-sans-tc/400.css';
+import '@fontsource/noto-sans-tc/500.css';
+import '@fontsource/noto-sans-tc/600.css';
+import '@fontsource/noto-sans-tc/700.css';
+
 import React from 'react';
 import { ChakraProvider, Flex } from '@chakra-ui/react';
 
@@ -38,9 +43,7 @@ function App() {
         <Element name="Intro" id="Intro">
           <SectionPickupthon />
         </Element>
-        <Element name="Seminar" id="Seminar">
-          <SectionSeminar />
-        </Element>
+        <SectionSeminar />
         <Element name="Hackathon" id="Hackathon">
           <SectionHackathon />
         </Element>

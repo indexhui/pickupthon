@@ -30,8 +30,8 @@ const SideDrawer = () => {
           <DrawerBody>
             <Flex py="30px" h="100%" align="center">
               <Flex direction="column" gap="10px" align="flex-start">
-                <MenuList />
-                <LanguageSwitcher />
+                <MenuList onClose={onClose} />
+                <LanguageSwitcher onClose={onClose} />
               </Flex>
             </Flex>
           </DrawerBody>

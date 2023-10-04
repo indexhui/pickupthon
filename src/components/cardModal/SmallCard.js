@@ -51,7 +51,7 @@ const SmallCard = props => {
             justify="center"
             align="center"
           >
-            <Text textStyle="h5" color="aquaGreen.500" pr="10px">
+            <Text textStyle="h5" color="aquaGreen.500">
               {isMentor ? t('tag02') : t('tag03')}
             </Text>
           </Flex>

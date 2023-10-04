@@ -15,7 +15,7 @@ const intro = {
   introTitle: '什麼是 Pickupthon？',
   introContent01:
     'Pickupthon 是由 Pickup Design 主辦的國際永續設計系列活動，你將透過永續論壇、設計工作坊、永續黑客松了解 2030 SDGs 永續發展目標不是口號而是在創新設計的過程中透過不斷的嘗試化為實際解決方案，並在過程中獲得發現問題後面對挑戰的能力同時也能發揮社會影響力！',
-  introTitle2: 'Pickupthon 有什麼亮點？',
+  introTitle2: 'Pickupthon 的亮點？',
   introContent2:
     '本次活動將透過「遊戲化」方式帶出永續設計概念讓參與者了解問題並創造具有社會創新和永續概念的解決方案',
   introSubtitle2_1: '創新設計提案',

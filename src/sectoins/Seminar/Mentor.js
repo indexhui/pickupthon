@@ -29,7 +29,7 @@ const MENTOR_DATA = [
 ];
 const Mentor = () => {
   return (
-    <SimpleGrid columns={{ base: 1, lg: 3 }} spacing={5}>
+    <SimpleGrid columns={{ base: 1, lg: 3 }} spacing="24px">
       {MENTOR_DATA.map((item, index) => (
         <SmallCard key={index} {...item} isMentor />
       ))}

@@ -9,8 +9,8 @@ const theme = extendTheme({
   semanticTokens,
   textStyles,
   fonts: {
-    heading: `'Montserrat','-apple-system','BlinkMacSystemFont ','PingFang TC','NotoSansCJK','Microsoft JhengHei'`,
-    body: `'Montserrat','-apple-system','BlinkMacSystemFont ','PingFang TC','NotoSansCJK','Microsoft JhengHei'`,
+    heading: `'Montserrat','-apple-system','BlinkMacSystemFont', 'Noto Sans TC','PingFang TC','Noto Sans TC','Microsoft JhengHei'`,
+    body: `'Montserrat','-apple-system','BlinkMacSystemFont ', 'Noto Sans TC','PingFang TC','NotoSansCJK','NotoSansCJK','Microsoft JhengHei'`,
   },
 });
 

@@ -6,7 +6,6 @@ import LanguageSwitcher from './LanguageSwitcher';
 import SideDrawer from './SideDrawer';
 
 const Header = () => {
-  const [isActive, setIsActive] = useState(true);
   return (
     <Flex
       position="fixed"
@@ -17,7 +16,7 @@ const Header = () => {
       h="72px"
       bgColor="bg-dark"
       justify="space-between"
-      align="center"
+      // align="center"
       zIndex="10"
     >
       <Image src={logo} alt="logo" />

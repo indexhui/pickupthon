@@ -34,11 +34,19 @@ const LIST_DATA = [
   },
 ];
 
-const MenuList = () => {
+const MenuList = props => {
+  const { onClose } = props;
   return (
-    <Flex gap="1.5vw" direction={{ base: 'column', lg: 'row' }}>
+    <Flex h="100%" gap="1.5vw" direction={{ base: 'column', lg: 'row' }}>
       {LIST_DATA.map((item, index) => {
-        return <AnchorLink key={index} name={item.name} to={item.to} />;
+        return (
+          <AnchorLink
+            key={index}
+            name={item.name}
+            to={item.to}
+            onClose={onClose}
+          />
+        );
       })}
     </Flex>
   );
