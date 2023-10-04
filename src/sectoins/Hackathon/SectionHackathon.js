@@ -101,7 +101,12 @@ const SectionHackathon = () => {
         align="center"
         bg="linear-gradient(90deg, rgba(126, 30, 0, 0.00) 3.98%, rgba(234, 155, 115, 0.30) 27.31%, rgba(246, 118, 55, 0.30) 49.87%, rgba(255, 92, 12, 0.60) 93.14%), linear-gradient(90deg, rgba(50, 50, 50, 0.15) 13.82%, rgba(255, 255, 255, 0.15) 92%);"
       >
-        <Flex w="80%" align="center" justify="center" direction="column">
+        <Flex
+          w={{ base: '100%', lg: '80%' }}
+          align="center"
+          justify="center"
+          direction="column"
+        >
           <Day3 />
         </Flex>
       </Flex>
