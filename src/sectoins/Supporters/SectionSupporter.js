@@ -105,7 +105,7 @@ const sup = [
   },
   {
     img: sup_15,
-    link: '',
+    link: 'http://mx.nthu.edu.tw/~yc.tseng/index.html',
   },
   {
     img: sup_17,
@@ -169,13 +169,12 @@ const SectionSupporter = () => {
           ))}
         </SimpleGrid>
       </Flex>
-
       <Flex w="80%" align="center" direction="column" gap="20px">
         <Text textStyle="h4" color="cloud.500">
-          {t('sup')}
+          {t('co')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
-          {sup.map((item, index) => (
+          {co.map((item, index) => (
             <Link
               href={item.link}
               isExternal
@@ -189,10 +188,10 @@ const SectionSupporter = () => {
       </Flex>
       <Flex w="80%" align="center" direction="column" gap="20px">
         <Text textStyle="h4" color="cloud.500">
-          {t('co')}
+          {t('sup')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
-          {co.map((item, index) => (
+          {sup.map((item, index) => (
             <Link
               href={item.link}
               isExternal
