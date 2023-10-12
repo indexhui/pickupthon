@@ -152,7 +152,7 @@ const speaker = {
 const mentor = {
   mentor01: 'Kirsten Chen',
   mentor01title: 'Yoshi Design Lab, co-founder',
-  mentor01inro:
+  mentor01intro:
     'Kirsten, a co-founder of Yoshi Design Lab. With over a decade of experience in advertising and startups, Kirsten has served global brands and digital products. After obtaining MA Sustainable Design and Start-Up Visa in the UK, she is back in Taiwan and trying to bring the core essence of sustainability into Taiwan. The professional field of Yoshi Design Lab is identifying the intersection of business and sustainability, transforming it into business and brand strategies, and developing products and experiences. Currently, They are dedicated to leading enterprises to become a purpose-driven culture, as well as sustainability literacy.',
   //02
   mentor02: 'Nita Wu',
@@ -160,7 +160,7 @@ const mentor = {
   mentor02intro: `Nita is a co-founder of Jump5, a designer career health check platform. Currently, she is in charge of designing OTT streaming platforms and SaaS products for Japanese enterprise customers at a streaming company. Over the last decade, she has explored various industries, from the global laptop market to online gamification education in China and the United States and digital finance in Taiwan. Due to many role changes, she is good at trend analysis, user research, product design, and objective and diverse product strategies.`,
   //03
   mentor03: 'Pacha Chen',
-  mentor03title: 'UX Designer',
+  mentor03title: 'UX Research Coach & Consultant',
   mentor03intro:
     'Pacha is a mixed-methods, energetic, and self-motivated user experience researcher lead with over 10 years of experience in conducting B2B and international UX research, She has proven records of impactful research that could support business strategy and design.',
 };
