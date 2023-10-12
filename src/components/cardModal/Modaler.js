@@ -7,6 +7,7 @@ import {
   useDisclosure,
   Text,
   Image,
+  Link,
   Box,
 } from '@chakra-ui/react';
 
@@ -16,7 +17,7 @@ import closeBtn from 'assets/images/closeBtn.svg';
 
 const Modaler = props => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { name, title, topic, content, image, intro } = props;
+  const { name, title, topic, content, image, intro, link } = props;
   const { t } = useTranslation();
   return (
     <>
@@ -64,8 +65,9 @@ const Modaler = props => {
               <Text textStyle="p1" color="white">
                 {t(title)}
               </Text>
-
-              <EarthIcon />
+              <Link href={link} isExternal>
+                <EarthIcon />
+              </Link>
               <Text my="12px" color="white" textStyle="p2">
                 {t(intro)}
               </Text>

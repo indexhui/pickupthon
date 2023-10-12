@@ -36,6 +36,7 @@ const co = [
   },
   {
     img: co_03,
+    link: 'https://www.yoshidesignlab.com/',
   },
   {
     img: sup_16,
@@ -116,7 +117,7 @@ const sup = [
 const sponsor = [
   {
     img: sponsor_01,
-    link: 'https://jumping.group/',
+    link: 'https://kanshoku.co/',
   },
   {
     img: sponsor_02,

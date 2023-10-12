@@ -12,12 +12,13 @@ import CardModal from 'components/cardModal/CardModal';
 
 const SPEAKER_DATA = [
   {
-    image: speaker01,
     name: 'speaker01',
+    image: speaker01,
     title: 'speaker01title',
     topic: 'speaker01topic',
     content: 'speaker01content',
     intro: 'speaker01intro',
+    link: 'https://www.linkedin.com/in/tzuchaoc',
   },
   {
     name: 'speaker02',
@@ -26,6 +27,7 @@ const SPEAKER_DATA = [
     topic: 'speaker02topic',
     content: 'speaker02content',
     intro: 'speaker02intro',
+    link: 'https://www.facebook.com/ianjang.ux.sd',
   },
   {
     name: 'speaker03',
@@ -34,6 +36,7 @@ const SPEAKER_DATA = [
     topic: 'speaker03topic',
     content: 'speaker03content',
     intro: 'speaker03intro',
+    link: 'https://www.linkedin.com/in/aaron-chuang-79512479',
   },
   {
     name: 'speaker04',
@@ -42,6 +45,7 @@ const SPEAKER_DATA = [
     topic: 'speaker04topic',
     content: 'speaker04content',
     intro: 'speaker04intro',
+    link: 'https://www.linkedin.com/in/yenmin-alvin-huang/',
   },
   {
     name: 'speaker05',
@@ -50,6 +54,7 @@ const SPEAKER_DATA = [
     topic: 'speaker05topic',
     content: 'speaker05content',
     intro: 'speaker05intro',
+    link: 'https://www.facebook.com/christang0920852/',
   },
   {
     name: 'speaker06',
@@ -58,6 +63,7 @@ const SPEAKER_DATA = [
     topic: 'speaker06topic',
     content: 'speaker06content',
     intro: 'speaker06intro',
+    link: 'https://www.facebook.com/profile.php?id=100000593120503',
   },
   {
     name: 'speaker07',
@@ -66,6 +72,7 @@ const SPEAKER_DATA = [
     topic: 'speaker07topic',
     content: 'speaker07content',
     intro: 'speaker07intro',
+    link: 'https://kpmg.com/tw/zh/home/insights/2016/07/social-enterprise-service.html',
   },
 ];
 
