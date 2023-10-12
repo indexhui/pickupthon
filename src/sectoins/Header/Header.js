@@ -19,7 +19,9 @@ const Header = () => {
       // align="center"
       zIndex="10"
     >
-      <Image src={logo} alt="logo" />
+      <Link href="/">
+        <Image src={logo} alt="logo" />
+      </Link>
       <Flex align="center" display={{ base: 'none', lg: 'flex' }}>
         <MenuList />
         <LanguageSwitcher />
