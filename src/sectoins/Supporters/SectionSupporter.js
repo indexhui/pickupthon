@@ -153,12 +153,13 @@ const SectionSupporter = () => {
         </Text>
         <Image src={pickup} />
       </Flex>
+
       <Flex w="80%" align="center" direction="column" gap="20px">
         <Text textStyle="h4" color="cloud.500">
-          {t('sponsor')}
+          {t('co')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
-          {sponsor.map((item, index) => (
+          {co.map((item, index) => (
             <Link
               href={item.link}
               isExternal
@@ -172,10 +173,10 @@ const SectionSupporter = () => {
       </Flex>
       <Flex w="80%" align="center" direction="column" gap="20px">
         <Text textStyle="h4" color="cloud.500">
-          {t('co')}
+          {t('sponsor')}
         </Text>
         <SimpleGrid columns={{ base: 2, lg: 4 }} gap="20px">
-          {co.map((item, index) => (
+          {sponsor.map((item, index) => (
             <Link
               href={item.link}
               isExternal
