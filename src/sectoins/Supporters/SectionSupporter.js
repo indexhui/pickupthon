@@ -5,10 +5,19 @@ import co_01 from 'assets/images/brand/co_01.png';
 import co_02 from 'assets/images/brand/co_02.png';
 import co_03 from 'assets/images/brand/co_03.png';
 import co_04 from 'assets/images/brand/co_04.png';
+import ciology from 'assets/images/brand/ciology.png';
 import sup_01 from 'assets/images/brand/sup/sup_01.png';
 import sup_02 from 'assets/images/brand/sup/sup_02.png';
 import sup_03 from 'assets/images/brand/sup/sup_03.png';
 import sup_04 from 'assets/images/brand/sup/sup_04.png';
+import kpmg from 'assets/images/brand/sup/kpmg.png';
+import tellit from 'assets/images/brand/sup/tellit.png';
+import musu from 'assets/images/brand/sup/musu.png';
+import innergie from 'assets/images/brand/sup/innergie.png';
+import myinnergie from 'assets/images/brand/sup/myinnergie.png';
+import o from 'assets/images/brand/sup/o.png';
+import nccu from 'assets/images/brand/sup/nccu.png';
+import userxper from 'assets/images/brand/sup/userxper.png';
 import sup_05 from 'assets/images/brand/sup/sup_05.png';
 import sup_06 from 'assets/images/brand/sup/sup_06.png';
 import sup_07 from 'assets/images/brand/sup/sup_07.png';
@@ -24,6 +33,7 @@ import sup_16 from 'assets/images/brand/sup/sup_16.png';
 import sup_17 from 'assets/images/brand/sup/sup_17.png';
 import sponsor_01 from 'assets/images/brand/sponsor/sponsor_01.png';
 import sponsor_02 from 'assets/images/brand/sponsor/sponsor_02.png';
+import trans_iot from 'assets/images/brand/sponsor/trans_iot.png';
 
 const co = [
   {
@@ -42,9 +52,10 @@ const co = [
     img: sup_16,
     link: 'https://www.facebook.com/Le.Bistrot.Social/',
   },
-  // {
-  //   img: co_04,
-  // },
+  {
+    img: ciology,
+    link: 'https://lnk.bio/1uPM',
+  },
 ];
 
 const sup = [
@@ -65,6 +76,10 @@ const sup = [
     link: 'https://daoori.com',
   },
   {
+    img: kpmg,
+    link: 'https://kpmg.com/tw/social-enterprise',
+  },
+  {
     img: sup_05,
     link: 'https://www.packageplus-tw.com/',
   },
@@ -75,6 +90,10 @@ const sup = [
   {
     img: sup_07,
     link: 'https://www.linkedin.com/company/tryspot/',
+  },
+  {
+    img: tellit,
+    link: 'https://www.tellitapp.ai/',
   },
   {
     img: sup_08,
@@ -93,20 +112,44 @@ const sup = [
     link: 'https://www.instagram.com/oneday.software/',
   },
   {
-    img: sup_12,
-    link: 'https://www.tysda.earth/',
+    img: musu,
+    link: 'https://musuzerowaste.start.page/',
   },
   {
-    img: sup_13,
-    link: 'https://www.instagram.com/bizthinking/',
+    img: innergie,
+    link: 'https://musuzerowaste.start.page/',
+  },
+  {
+    img: sup_12,
+    link: 'https://www.tysda.earth/',
   },
   {
     img: sup_14,
     link: 'https://goodtogo.tw',
   },
   {
+    img: myinnergie,
+    link: 'https://myinnergie.com/tw/',
+  },
+  {
     img: sup_15,
     link: 'http://mx.nthu.edu.tw/~yc.tseng/index.html',
+  },
+  {
+    img: nccu,
+    link: 'https://lnk.bio/1uPM',
+  },
+  {
+    img: o,
+    link: 'https://lnk.bio/1uPM',
+  },
+  {
+    img: sup_13,
+    link: 'https://www.instagram.com/bizthinking/',
+  },
+  {
+    img: userxper,
+    link: 'https://lnk.bio/1uPM',
   },
   {
     img: sup_17,
@@ -118,6 +161,10 @@ const sponsor = [
   {
     img: sponsor_01,
     link: 'https://kanshoku.co/',
+  },
+  {
+    img: trans_iot,
+    link: 'https://www.trans-iot.com/tw/about/',
   },
   {
     img: sponsor_02,
